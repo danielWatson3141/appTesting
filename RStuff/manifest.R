@@ -5,9 +5,9 @@
 
 
 refresh = function(){
-	source("fileUtils.R")
-	source("manifest.R")
-	source("dataUtils.R")
+	source("Rstuff/fileUtils.R")
+	source("Rstuff/manifest.R")
+	source("Rstuff/dataUtils.R")
 	gc()
 }
 
@@ -21,6 +21,12 @@ st = function(){
 
 num = function(x){
 	return(as.numeric(x))
+}
+
+filterRows =function(final){
+	row.is.na = apply(final, 1, function(x){any(is.na(x))})
+	print(sum(row.is.na))
+	return(final[!row.is.na,])
 }
 
 #add matrices elementwise

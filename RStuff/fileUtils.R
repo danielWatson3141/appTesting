@@ -32,8 +32,47 @@ extractCSV=function(filename, name = filename){
 	attr(dataPoints, 'duration') = Duration
 	colNames = as.character(unlist(colNames))
 	print(colNames)
+	
+	
+	dataPoints = filterRows(dataPoints)
+	print("dim:")
+	print(dim(dataPoints))
+	#print(typeof(dataPoints))
 	colnames(dataPoints) = colNames
 	rownames(dataPoints) <- 1:nrow(dataPoints)
 	
+	
+	
+	
 	return(dataPoints)
 }
+
+extractTrace=function(filename,name = filename){
+	dataFile = file(filename)
+	rawData = readLines(dataFile, -1)
+	
+	rawData = strsplit(rawData, ",|:")
+	return(rawData)
+	
+	delim = vector("numeric", 30)
+	d = 1
+	
+	for(i in 1:length(rawData)){
+		if(length(rawData[[i]])==1){
+			delim[d] = i
+			d=d+1
+		}
+	}
+}
+
+generatePlotForFiles = function(csvFile, n=10, metric = "CPU Load (Normalized) [%]", traceFile=null, aggregator=getaggregator(TRUE)){
+	rawData = extractCSV(csvFile)
+	instances = splitInstances(rawData, n)
+	plotInstances(instances[-1], metric)
+}
+
+
+
+
+
+

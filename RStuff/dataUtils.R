@@ -18,6 +18,7 @@ maCols = function(x, n=15){	#convert vector or matrix to moving average form
 	for(i in 1:ncol(x)){
 		res[,i] = ma(unlist(x[,i]), n)
 	}
+	dimnames(res) = dimnames(x)
 	return(res)
 }
 
@@ -48,7 +49,7 @@ splitInstances = function(x, n ){
 		
 		#normalize timestamps. First record is 0.
 		starttime = as.numeric(instance[1,1])
-		print(starttime)
+		#print(starttime)
 		for(col in seq(1,ncol(x),2)){
 			instance[,col]=as.numeric(instance[,col])-starttime
 		}
@@ -69,23 +70,23 @@ splitInstances = function(x, n ){
 	return(l)
 }
 
-plotInstances=function(lst, metric = 6, aggregator=NULL, colors=NULL, Ylim=NULL){
+plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=getAggregator(TRUE), colors=NULL, Ylim=NULL){
 	#lst: list of instances
-	#metric: metric to be plotted (column index)
+	#metric: metric to be plotted (label)
 	#aggregator: function that takes such a list and aggregates info DEFAULT: none
 	#list of colors to plot with REQ: length(colors) >= length(aggregator(lst)).
 	#If an aggregator is present, the last instance is assumed to be the aggregated sample, and therefore will be bolded
 	
-	metricName = colnames(lst[[1]])[metric]
+	#metricName = colnames(lst[[1]])[metric]
 	
 	agg = !is.null(aggregator)
 	n=length(lst)
 	if(agg){
-		print("bip")
+		#print("bip")
 		lst = aggregator(lst)
 		n=length(lst)
 	}
-	print("pib")
+	#print("pib")
 	if(is.null(colors))
 		colors = rainbow(n)
 	
@@ -95,36 +96,43 @@ plotInstances=function(lst, metric = 6, aggregator=NULL, colors=NULL, Ylim=NULL)
 	
 	for(i in 1:length(lst)){
 		instance = lst[[i]]
+		#print(dimnames(instance))
 		Cmax = max(instance[,metric])
 		Cmin = min(instance[,metric])
 		max = max(max, Cmax)
 		min = min(min, Cmin)
+		#print(c(max, min))
+		if(is.na(min) || is.na(max)){
+			print(c("current",Cmax, Cmin))
+		}
 	}
 	
 	
 	#create plot with first instance
 	#print(lst[[1]])
 	graphics.off()
-	
-	plot(lst[[1]][,metric-1], lst[[1]][,metric], #data
+	#print(c(min, max))
+	timeInd = which(colnames(lst[[1]])==metric)-1
+	plot(lst[[1]][,timeInd], lst[[1]][,metric], #data
 			type="l", col=colors[1],	#colored line
 			xlab = "time (ms)",	#label x axis
-			ylab = metricName, #label y axis
-			ylim = c(min, max), 	#ensure y axis is scaled properly
-			main = paste(metricName, " VS ", "Time")
+			ylab = metric, #label y axis
+			
+			ylim = c(min, max),	#ensure y axis is scaled properly
+			main = paste(metric, " VS ", "Time")
 			)
-	print("first")
+	#print("first")
 	
 	#plot the rest of the instances minus final
 	for(i in 2: n-1){
-		lines(lst[[i]][,metric-1], lst[[i]][,metric], col=colors[i])
+		lines(lst[[i]][,timeInd], lst[[i]][,metric], col=colors[i])
 	}
 	
 	#plot final instance in black and bold if an aggregator is present or normally otherwise
 	if(agg)
-		lines(lst[[n]][,metric-1], lst[[n]][,metric], col="black", lwd=3)
+		lines(lst[[n]][,timeInd], lst[[n]][,metric], col="black", lwd=3)
 	else
-		lines(lst[[n]][,metric-1], lst[[n]][,metric], col=colors[n])
+		lines(lst[[n]][,timeInd], lst[[n]][,metric], col=colors[n])
 }
 
 getAggregator = function(rollMean = FALSE, rollMeanBefore=TRUE, n = 10){
