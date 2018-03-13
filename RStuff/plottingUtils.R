@@ -22,6 +22,48 @@ plotSingleInstance=function(inst, metric="CPU Load (Normalized) [%]", color, min
 	)
 }
 
+compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors=c("red","blue")){
+	#compare separate instances (or lists of instances) by sorting and graphing points
+	
+	
+	#bind instances if multiple
+	if(typeof(inst1)=="list"){
+		inst1 = do.call(rbind, inst1, 1)
+	}
+	
+	if(typeof(inst2)=="list"){
+		inst2 = do.call(rbind, inst2, 1)
+	}
+	
+	
+	
+	met1 = inst1[,metric]
+	met2 = inst2[,metric]
+	
+	met1 = sort(met1)
+	met2 = sort(met2)
+	
+	#remove random rows to make lengths equal
+
+	if(length(met1)>length(met2)){
+		toRem = sample(length(met1), length(met1)-length(met2), replace = FALSE)
+		met1 = met1[-toRem]
+	}else{
+		toRem = sample(length(met2), length(met2)-length(met1), replace = FALSE)
+		met2 = met2[-toRem]
+	}
+	
+	ymin = min(c(met1, met2))
+	ymax = max(c(met1, met2))
+	
+	indMax = max(length(met1), length(met2))
+	
+	print(c(length(met1), length(met2)))
+	
+	plot(met1, col="red", xlim = c(1, indMax), ylim = c(ymin, ymax))
+	points(met2, col="blue",  xlim = c(1, indMax), ylim = c(ymin, ymax))
+}
+
 compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors, min, max){
 	plotSingleInstance(mean1, metric, colors[1], min, max)
 	

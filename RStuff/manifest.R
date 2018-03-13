@@ -8,6 +8,7 @@ refresh = function(){
 	source("Rstuff/fileUtils.R")
 	source("Rstuff/manifest.R")
 	source("Rstuff/dataUtils.R")
+	source("Rstuff/plottingUtils.R")
 	gc()
 }
 
