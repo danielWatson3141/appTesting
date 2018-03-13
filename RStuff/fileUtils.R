@@ -65,11 +65,7 @@ extractTrace=function(filename,name = filename){
 	}
 }
 
-generatePlotForFiles = function(csvFile, n=10, metric = "CPU Load (Normalized) [%]", traceFile=null, aggregator=getaggregator(TRUE)){
-	rawData = extractCSV(csvFile)
-	instances = splitInstances(rawData, n)
-	plotInstances(instances[-1], metric)
-}
+
 
 
 

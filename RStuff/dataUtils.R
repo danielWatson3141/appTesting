@@ -15,10 +15,14 @@ ma <- function(arr, n=15){	#convert vector to moving average
 
 maCols = function(x, n=15){	#convert vector or matrix to moving average form
 	res = mat.or.vec(nrow(x),ncol(x))
-	for(i in 1:ncol(x)){
+	for(i in seq(2,ncol(x),2)){
 		res[,i] = ma(unlist(x[,i]), n)
 	}
-	dimnames(res) = dimnames(x)
+	for(i in seq(1,ncol(x),2)){
+		res[,i] = x[,i]
+	}
+	res = res[n:nrow(res),]
+	colnames(res) = colnames(x)
 	return(res)
 }
 
@@ -70,71 +74,6 @@ splitInstances = function(x, n ){
 	return(l)
 }
 
-plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=getAggregator(TRUE), colors=NULL, Ylim=NULL){
-	#lst: list of instances
-	#metric: metric to be plotted (label)
-	#aggregator: function that takes such a list and aggregates info DEFAULT: none
-	#list of colors to plot with REQ: length(colors) >= length(aggregator(lst)).
-	#If an aggregator is present, the last instance is assumed to be the aggregated sample, and therefore will be bolded
-	
-	#metricName = colnames(lst[[1]])[metric]
-	
-	agg = !is.null(aggregator)
-	n=length(lst)
-	if(agg){
-		#print("bip")
-		lst = aggregator(lst)
-		n=length(lst)
-	}
-	#print("pib")
-	if(is.null(colors))
-		colors = rainbow(n)
-	
-	#find max and min of all datapoints
-	max = -Inf
-	min = Inf
-	
-	for(i in 1:length(lst)){
-		instance = lst[[i]]
-		#print(dimnames(instance))
-		Cmax = max(instance[,metric])
-		Cmin = min(instance[,metric])
-		max = max(max, Cmax)
-		min = min(min, Cmin)
-		#print(c(max, min))
-		if(is.na(min) || is.na(max)){
-			print(c("current",Cmax, Cmin))
-		}
-	}
-	
-	
-	#create plot with first instance
-	#print(lst[[1]])
-	graphics.off()
-	#print(c(min, max))
-	timeInd = which(colnames(lst[[1]])==metric)-1
-	plot(lst[[1]][,timeInd], lst[[1]][,metric], #data
-			type="l", col=colors[1],	#colored line
-			xlab = "time (ms)",	#label x axis
-			ylab = metric, #label y axis
-			
-			ylim = c(min, max),	#ensure y axis is scaled properly
-			main = paste(metric, " VS ", "Time")
-			)
-	#print("first")
-	
-	#plot the rest of the instances minus final
-	for(i in 2: n-1){
-		lines(lst[[i]][,timeInd], lst[[i]][,metric], col=colors[i])
-	}
-	
-	#plot final instance in black and bold if an aggregator is present or normally otherwise
-	if(agg)
-		lines(lst[[n]][,timeInd], lst[[n]][,metric], col="black", lwd=3)
-	else
-		lines(lst[[n]][,timeInd], lst[[n]][,metric], col=colors[n])
-}
-
 getAggregator = function(rollMean = FALSE, rollMeanBefore=TRUE, n = 10){
 	
 	
@@ -160,5 +99,10 @@ getAggregator = function(rollMean = FALSE, rollMeanBefore=TRUE, n = 10){
 		return(lst)
 	}
 	return(toRet)
+}
+
+getMean = function(instances){
+	aggr = getAggregator(TRUE, TRUE, length(instances))
+	return(aggr(instances)[[length(instances)]])
 }
 
