@@ -1,82 +1,31 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+'use strict';
 
 import React, { Component } from 'react';
 import {
+  StackNavigator,
+} from 'react-navigation';
+
+import {
+  Platform,
+  StyleSheet,
   Text,
-  StyleSheet
+  View
 } from 'react-native';
-import MapView from 'react-native-maps';
-//import ClusteredMapView from 'react-native-maps-super-cluster';
-import image from './images/flag-pink.png';
+import HomePage from './home';
+import Maps from './maps';
 
-export default class App extends Component<{}> {
-  render() {
+const instructions = Platform.select({
+  ios: 'Press Cmd+R to reload,\n' +
+    'Cmd+D or shake for dev menu',
+  android: 'Double tap R on your keyboard to reload,\n' +
+    'Shake or press menu button for dev menu',
+});
 
-    // const coordinates = [];
+type Props = {};
 
-    // coordinates.push({
-    //   key: 0,
-    //   location: {
-    //     longitude: -70.23,
-    //     latitude: -33.23
-    //   }
-    // });
+const App = StackNavigator({
+  Home: { screen: HomePage },
+  Maps: { screen: Maps },
+});
 
-    // for(let i = 1; i<100; i++) {
-
-    //   const location = {
-    //     longitude: coordinates[i-1].location.longitude + (Math.random() * (i%2 === 0 ? -1 : 1)),
-    //     latitude: coordinates[i-1].location.latitude + (Math.random() * (i%2 === 0 ? -1 : 1)),
-    //   };
-
-    //   coordinates.push({ key: i, location });
-
-    // }
-
-    return (
-      <MapView
-        // renderMarker={renderMarker}
-        // initialRegion={{
-        //   longitude: 151,
-        //   latitude: -34,
-        //   latitudeDelta: 0,
-        //   longitudeDelta: 0,
-        // }}
-        region={getDelta(-34, 151, 20000000)}
-        style={StyleSheet.absoluteFillObject}>
-
-      </MapView>
-    );
-  }
-}
-
-function getDelta(lat, lon, distance): Coordinates {
-   const oneDegreeOfLatitudeInMeters = 111.32 * 1600;
-
-   const latitudeDelta =distance / oneDegreeOfLatitudeInMeters;
-   const longitudeDelta = distance / (oneDegreeOfLatitudeInMeters * Math.cos(lat * (Math.PI / 180)));
-
-   return result = {
-       latitude: lat,
-       longitude: lon,
-       latitudeDelta,
-       longitudeDelta,
-   }
-}
-
-function renderMarker({ location }) {
-  return (
-    <MapView.Marker
-      image={image}
-      coordinate={location}
-    >
-      <MapView.Callout>
-        <Text>BiG BiG Callout</Text>
-      </MapView.Callout>
-    </MapView.Marker>
-  );
-}
+export default App;
