@@ -106,3 +106,12 @@ getMean = function(instances){
 	return(aggr(instances)[[length(instances)]])
 }
 
+computeAttr = function(instance){
+	attr(instance, "means") = colMeans(instance)
+	attr(instance, "medians") = apply(instance, 2, median)
+	attr(instance, "maximum") = apply(instance, 2, max)
+	attr(instance, "minimum") = apply(instance, 2, min)
+	print(attributes(instance))
+	return(instance)
+}
+
