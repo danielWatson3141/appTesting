@@ -87,7 +87,7 @@ compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors
 	lines(time2, mean2[,metric], col=colors[2], lwd=1)
 }
 
-plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=getAggregator(TRUE), colors=NULL, Ylim=NULL){
+plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=getAggregator(TRUE), colors=NULL, Ylim=NULL, wait=FALSE){
 	#lst: list of instances
 	#metric: metric to be plotted (label)
 	#aggregator: function that takes such a list and aggregates info DEFAULT: none
@@ -116,11 +116,13 @@ plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=get
 		#print(dimnames(instance))
 		Cmax = max(instance[,metric])
 		Cmin = min(instance[,metric])
-		max = max(max, Cmax)
-		min = min(min, Cmin)
 		#print(c(max, min))
-		if(is.na(min) || is.na(max)){
+		if(is.na(Cmin) || is.na(Cmax)){
 			print(c("current",Cmax, Cmin))
+		}else{
+		
+			max = max(max, Cmax)
+			min = min(min, Cmin)
 		}
 	}
 	
@@ -131,11 +133,13 @@ plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=get
 	#print(c(min, max))
 	
 	plotSingleInstance(lst[[1]],metric, colors[1], min, max)
+	readline(prompt="Press [enter] to continue")
 	#print("first")
 	timeInd = which(colnames(lst[[1]])==metric)-1
 	#plot the rest of the instances minus final
 	for(i in 2: n-1){
 		lines(lst[[i]][,timeInd], lst[[i]][,metric], col=colors[i])
+		readline(prompt="Press [enter] to continue")
 	}
 	
 	#plot final instance in black and bold if an aggregator is present or normally otherwise
