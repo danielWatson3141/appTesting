@@ -133,13 +133,15 @@ plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=get
 	#print(c(min, max))
 	
 	plotSingleInstance(lst[[1]],metric, colors[1], min, max)
-	readline(prompt="Press [enter] to continue")
+	if(wait)
+		readline(prompt="Press [enter] to continue")
 	#print("first")
 	timeInd = which(colnames(lst[[1]])==metric)-1
 	#plot the rest of the instances minus final
 	for(i in 2: n-1){
 		lines(lst[[i]][,timeInd], lst[[i]][,metric], col=colors[i])
-		readline(prompt="Press [enter] to continue")
+		if(wait)
+			readline(prompt="Press [enter] to continue")
 	}
 	
 	#plot final instance in black and bold if an aggregator is present or normally otherwise
