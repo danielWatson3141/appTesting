@@ -150,3 +150,39 @@ plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=get
 	else
 		lines(lst[[n]][,timeInd], lst[[n]][,metric], col=colors[n])
 }
+
+makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Ylim=NULL){
+	
+	aggregator=getAggregator(TRUE)
+	lst = aggregator(lst)	
+	d = length(lst)
+	n = nrow(lst[[1]])
+	timeInd = which(colnames(lst[[1]])==metric)-1
+	
+	
+	maxes = vector('numeric', n)
+	mins = vector('numeric', n)
+	
+	#compute vectors of maxes and mins
+	#There's an apply way to do this but
+	#fuckin R isn't working with me today
+	for(i in 1:n){
+		Cmax = -Inf
+		Cmin = Inf
+		for(inst in lst[-d]){
+			val = inst[i,metric]
+			if(!is.na(val)){
+				Cmax=max(Cmax,val)
+				Cmin=min(Cmin,val)
+			}	
+		}
+		maxes[i] = Cmax
+		mins[i] = Cmin
+	}
+	
+	#return(ext)
+	plot(lst[[1]][,timeInd],maxes, ylab=metric, xlab='Time (ms)', type="l", ylim=Ylim, col="red")
+	lines(lst[[1]][,timeInd],mins, col="blue")
+	lines(lst[[1]][,timeInd],lst[[d]][,metric], lwd=3)
+	
+}
