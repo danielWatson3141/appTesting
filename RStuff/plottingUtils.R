@@ -186,3 +186,12 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 	lines(lst[[1]][,timeInd],lst[[d]][,metric], lwd=3)
 	
 }
+
+plotTrace = function(spTrace, leadTime, plotHeight=0){
+	spTrace = (spTrace)*1000+leadTime*1000
+	print(spTrace)
+	drawLine = function(x){
+		lines(x, c(plotHeight, plotHeight), lwd=10)
+	}
+	apply(spTrace, 1, drawLine)
+}

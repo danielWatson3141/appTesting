@@ -115,3 +115,25 @@ computeAttr = function(instance){
 	return(instance)
 }
 
+splitTrace = function(trace){
+	nums = trace[2]
+	nums = apply(nums, 1, function(x){gsub("[^0-9\\.]","",x)})
+	nums = as.numeric(nums)
+	touches = sum(is.na(nums))
+	ct = 1
+	#print(touches)
+	ends = matrix(0, touches, 2)
+	ends[1,1] = 0
+	for(i in 2:length(nums)){
+		if(is.na(nums[i])){
+			ends[ct,2] = nums[i-1]
+			if(ct<touches){
+				ct = ct+1
+				ends[ct,1] = nums[i+1]
+			}	
+		}
+	}
+	ends[touches, 2] = nums[length(nums)]
+	return(ends)
+}
+
