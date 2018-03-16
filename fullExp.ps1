@@ -1,8 +1,8 @@
-﻿$target = "192.168.0.109:5555"
+﻿$target = "ZY223MXRXQ"
 
 .\runDual.ps1 `
     $target `
-    "traces/propexp.trace", "traces/gmaps.trace" `
+    "traces/propexp2.trace", "traces/gmaps2.trace", "traces/matrix.trace" `
     "com.example.lakshmanan.propexampl", "com.example.lakshmanan.gmapsandroid", "com.example.lakshmanan.matrixmultiplyandroid" `
     "com.propertyfinder", "com.reactnativemapsexample", "com.matrixmultiplyrn" `
-    2 1
+    15 5

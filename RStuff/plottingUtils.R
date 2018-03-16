@@ -195,3 +195,21 @@ plotTrace = function(spTrace, leadTime, plotHeight=0){
 	}
 	apply(spTrace, 1, drawLine)
 }
+GenerateAndSavePlots = function(csvMat){
+	
+	dirs = c("plots/property", "plots/maps", "plots/matrix")
+	
+	for(i in 1:3){
+		
+		#Dygraph Each
+		
+		
+		png("")
+		
+		
+		#Compare Means
+		
+		#Compare Sorts
+		
+	}
+}

@@ -13,13 +13,16 @@ Write-Host $runs
 
 
 For ($i=0; $i -lt $trace.Count ; $i++){
-    $name = $trace[$i] -replace "\.trace",""
+    $name = $trace[$i] -replace "\.|traces/",""
+
+    #$name = $trace[$i] -replace "\.",""
+    
 
     Write-Host $name
     
-    $andOutFile = -join ("outputs/", $name, "Andr")
+    $andOutFile = -join ($name, "Andr")
 
-    $rnOutFile = -join ("outputs/", $name , "RN")
+    $rnOutFile = -join ($name , "RN")
 
     Write-Host $andOutFile
     Write-Host $rnOutFile
