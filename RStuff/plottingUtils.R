@@ -64,7 +64,7 @@ compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors
 	points(met2, col="blue",  xlim = c(1, indMax), ylim = c(ymin, ymax))
 }
 
-compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors, min, max){
+compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors=c("red","blue"), min, max){
 	plotSingleInstance(mean1, metric, colors[1], min, max)
 	
 	time1 = mean1[,(which(colnames(mean1)==metric)-1)]
@@ -74,7 +74,7 @@ compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors
 	
 	t1start = time1[1]
 	t2start = time2[1]
-	browser()
+	#browser()
 	#determine offset
 	
 	diff = t2start-t1start
@@ -179,9 +179,11 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 		maxes[i] = Cmax
 		mins[i] = Cmin
 	}
-	
+	if(is.null(Ylim))
+		Ylim = c(min(mins),max(maxes))
+	print(Ylim)
 	#return(ext)
-	plot(lst[[1]][,timeInd],maxes, ylab=metric, xlab='Time (ms)', type="l", ylim=Ylim, col="red")
+	plot(lst[[1]][,timeInd],maxes, ylab=metric, xlab='Time (ms)', type="l", ylim=Ylim, col="red", main = paste(metric, " VS ", "Time"))
 	lines(lst[[1]][,timeInd],mins, col="blue")
 	lines(lst[[1]][,timeInd],lst[[d]][,metric], lwd=3)
 	
@@ -195,21 +197,54 @@ plotTrace = function(spTrace, leadTime, plotHeight=0){
 	}
 	apply(spTrace, 1, drawLine)
 }
-GenerateAndSavePlots = function(csvMat){
+
+generateAndSavePlots = function(instList, propTrace, mapsTrace){
 	
-	dirs = c("plots/property", "plots/maps", "plots/matrix")
+	dirs = c("plots/property/", "plots/maps/", "plots/matrix/")
+	names = matrix(c("AndrProperty", "RNProperty", 
+					"AndrMaps", "RNMaps",
+					"AndrMatrix", "RNMatrix"), nrow=3, ncol=2, byrow=TRUE)
 	
-	for(i in 1:3){
+	#metrics = c("Instances", "Dygraph", "Sorted", "MeanComp")
+	metrics = colnames(instList[[1]][[1]])
+	print(metrics)
+	for(i in seq(4,length(metrics), 2)){
+		metric= metrics[i]
+		print(metric)
 		
-		#Dygraph Each
-		
-		
-		png("")
-		
-		
-		#Compare Means
-		
-		#Compare Sorts
-		
+		for(j in 1:3){
+			ylim = NULL
+			if(metric == "CPU Load (Normalized) [%]")
+				ylim = c(1,100)
+			else
+				ylim = c(1600000, 1900000)
+			filename = paste(dirs[j], names[j,1], metric,sep="")
+			filename = gsub("\\s.*", "", filename)
+			filename = paste(filename,".png", sep = "")
+			print(filename)
+			png(filename)
+			makeDygraph(instList[[j]],metric, Ylim = ylim)
+			dev.off()
+			
+			filename = paste(dirs[j], names[j,2], metric,sep="")
+			filename = gsub("\\s.*", "", filename)
+			filename = paste(filename,".png", sep = "")
+			print(filename)
+			png(filename)
+			makeDygraph(instList[[j+3]],metric, Ylim = ylim)
+			dev.off()
+			
+			filename = paste(dirs[j], "meanCompare", metric,sep="")
+			filename = gsub("\\s.*", "", filename)
+			filename = paste(filename,".png", sep = "")
+			print(filename)
+			png(filename)
+			compareMeans(getMean(instList[[j]]), getMean(instList[[j+3]]), metric, min=ylim[1], max=ylim[2])
+			dev.off()
+		}
 	}
+		
+		
+		
+	
 }

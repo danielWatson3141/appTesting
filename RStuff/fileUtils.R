@@ -40,10 +40,7 @@ extractCSV=function(filename, name = filename){
 	#print(typeof(dataPoints))
 	colnames(dataPoints) = colNames
 	rownames(dataPoints) <- 1:nrow(dataPoints)
-	
-	
-	
-	
+	computeAttr(dataPoints)
 	return(dataPoints)
 }
 

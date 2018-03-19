@@ -26,12 +26,13 @@ maCols = function(x, n=15){	#convert vector or matrix to moving average form
 	return(res)
 }
 
-splitInstances = function(x, n ){ 
+splitInstances = function(x, n){ 
 	#given a profile consisting of multiple runs (x) separated by screen shut-off, number of runs(n)
 	#list of mat consisting of each instance with junk at beginning, end, and between runs culled
 	#x must have column labeled "Screen State"
 	
 	l = vector("list", n)
+	print(colnames(x))
 	scrnst = x[,'Screen State']	
 	i=1
 	#The first screen shut off indicates the beginning of the experiment
@@ -61,6 +62,7 @@ splitInstances = function(x, n ){
 		#keep track of minimal length for normalizing
 		if(end-start<minLen)
 			minLen = end-start
+		print(c(end, start))
 		
 		l[[inst]] = instance
 	}
@@ -111,7 +113,7 @@ computeAttr = function(instance){
 	attr(instance, "medians") = apply(instance, 2, median)
 	attr(instance, "maximum") = apply(instance, 2, max)
 	attr(instance, "minimum") = apply(instance, 2, min)
-	print(attributes(instance))
+	#print(attributes(instance))
 	return(instance)
 }
 
