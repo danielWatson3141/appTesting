@@ -9,8 +9,11 @@ refresh = function(){
 	source("Rstuff/manifest.R")
 	source("Rstuff/dataUtils.R")
 	source("Rstuff/plottingUtils.R")
+	source("Rstuff/postClassification.R")
 	gc()
 }
+
+memory.limit(5000)
 
 lv = function(){
 	return(.Last.value)
@@ -29,6 +32,30 @@ filterRows =function(final){
 	print(sum(row.is.na))
 	return(final[!row.is.na,])
 }
+
+library(pryr)
+checkMemory=function(){
+	for(object in ls(envir=.GlobalEnv)){
+		print(paste(deparse(substitute(object)),object.size(object)))
+	}
+}
+
+top <- function(x, n){
+	tail( order(x), n )
+}
+
+
+
+library(e1071)
+library("tm")
+library("magrittr")
+library("klaR")
+library("caret")
+library("plyr")
+library("class")
+
+
+
 
 #add matrices elementwise
 add <- function(x) Reduce("+", x)
