@@ -58,7 +58,7 @@ prepare=function(csvData,trainDTM=NULL, termfreq=5, includebody=TRUE){
 	}else{
 		csvData$text = csvData$card
 	}
-	csvData$termMatrix = getDTM(csvData$text)
+	#csvData$termMatrix = getDTM(csvData$text)
 	#csvData$termMatrix = apply(csvData$termMatrix, 2, convert_count)	
 	return(csvData)
 }
@@ -108,18 +108,20 @@ sepByClass = function(trainingText){
 		dtms[[i]] = trainingText$text[which(trainingText$class == cClass)]
 		attr(dtms[[i]],"className") = cClass
 	}
+	names(dtms) = classes
 	return(dtms)
 }
 
 computeTfIdf = function(trainingData){
 	corpusDTM = as.matrix(getDTM(trainingData$text))
-	bigN = nrow(corpusDTM)
-	appearances = colSums(corpusDTM != 0)
-	#browser()
-	idf = bigN/appearances
 	
+	
+	appearances = colSums(corpusDTM != 0)
 	classGroups = sepByClass(trainingData)
 	classDTM = lapply(classGroups,function(x){as.matrix(getDTM(x))})
+	bigN = nrow(trainingData)
+	idf = bigN/appearances
+	#browser()
 	
 	classes = levels(trainingData$class)
 	dn = list(classes, names(idf))
@@ -129,25 +131,17 @@ computeTfIdf = function(trainingData){
 	for(i in 1:length(classGroups)){
 		counts = colSums(classDTM[[i]])
 		tf = counts/sum(counts)
+		
 		#browser()
 		for(term in colnames(classDTM[[i]])){
-			tfIdf[i,term] = tf[term]*idf[term]
+			tfIdf[i,term] = tf[term]*idf[term]*log(nrow(classDTM[[i]]))
 			#browser()
 		}
 	}
 	return(tfIdf)
 }
 
-topNDescriptors=function(tfMat, n){
-	topNperRow = apply(tfMat,1,function(x){top(x,n)})
-	refresh()
-	#print(topNperRow)
-	descriptors = Reduce(intersect, list(topNperRow))
-	#print(descriptors)
-	return(tfMat[,descriptors])
-}
-
-classIDF = function(DTMRow, scores = FALSE, dfMat = tfIdf){
+classIDF = function(DTMRow, scores = FALSE, dfMat = tfIdf, retN = 1){
 	#DTMRow: single row matrix with colnames
 	#scores: return scores?
 	#dfMat: specific tfIDf matrix or use default?
@@ -155,6 +149,7 @@ classIDF = function(DTMRow, scores = FALSE, dfMat = tfIdf){
 	for(i in 1:nrow(dfMat)){
 		#browser()
 		for(term in colnames(DTMRow)){
+			#print(term)
 			if(term %in% colnames(dfMat)){
 				score[i] = score[i]+(dfMat[i,term]*DTMRow[,term])
 			}
@@ -162,10 +157,13 @@ classIDF = function(DTMRow, scores = FALSE, dfMat = tfIdf){
 	}
 	#print(score)
 	maxScore = which(score==max(score))
+	#browser()
+	if(max(score)==0)
+		return("no matching terms")
 	if(scores)
 		return(score)
-	if(max(score)==0)
-		print("no matching terms")
+	if(retN>1)
+		return(rownames(dfMat)[rev(top(score,retN))])
 	return((rownames(dfMat)[maxScore])[1])
 }
 
@@ -181,6 +179,8 @@ LeaveOneOutTest = function(trainingData, fraction = .1, confMatrix=FALSE, n=0){
 		classIDF(as.matrix(getDTM(trainingData$text[i])),FALSE, dfMat)
 	}
 	samp = sort(sample(1:nrow(trainingData), nrow(trainingData)*fraction,replace=FALSE ))
+	if(debug)
+		browser()
 	res = unlist(lapply(samp, loo))
 	#browser()
 	if(confMatrix){
@@ -189,5 +189,27 @@ LeaveOneOutTest = function(trainingData, fraction = .1, confMatrix=FALSE, n=0){
 	sum(equals(res, trainingData$class[samp]))/length(samp)
 	
 	#histogram the precision results across classes
+}
+
+ClassifyForID = function(id, dataSet = testingtext, dfMat = tfIdf, n=3){
+	post = which(dataSet$post_id == id)
+	post = dataSet$text[post]
 	
+	classIDF(as.matrix(getDTM(post)), dfMat = dfMat, retN = n)
+}
+
+predictForCSV = function(data, dfMat = tfIdf, n=3){	
+	ids = data$post_id
+	#browser()
+	classes = lapply(ids, function(id){ClassifyForID(id, data,dfMat,n)})
+	classes = matrix(unlist(classes),nrow(data),n,byrow=TRUE)
+	browser()
+	data$pred1 = classes[,1]
+	data$pred2 = classes[,2]
+	data$pred3 = classes[,3]
+	data$termMatrix=NULL
+	browser()
+	return(data)
+	#browser()
+	#write.csv(newData,"top500Sug.csv")
 }
