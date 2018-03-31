@@ -105,7 +105,7 @@ getAggregator = function(rollMean = FALSE, rollMeanBefore=TRUE, n = 10){
 
 getMean = function(instances){
 	aggr = getAggregator(TRUE, TRUE, length(instances))
-	return(aggr(instances)[[length(instances)]])
+	return(aggr(instances)[[length(instances)+1]])
 }
 
 computeAttr = function(instance){

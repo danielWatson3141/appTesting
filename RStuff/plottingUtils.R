@@ -187,11 +187,16 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 	lines(lst[[1]][,timeInd],mins, col="blue")
 	lines(lst[[1]][,timeInd],lst[[d]][,metric], lwd=3)
 	
+	
 }
 
 plotTrace = function(spTrace, leadTime, plotHeight=0){
+	if(is.null(spTrace))
+		return()
+	if(debug)
+		browser()
 	spTrace = (spTrace)*1000+leadTime*1000
-	print(spTrace)
+	#print(spTrace)
 	drawLine = function(x){
 		lines(x, c(plotHeight, plotHeight), lwd=10)
 	}
@@ -213,6 +218,11 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 		print(metric)
 		
 		for(j in 1:3){
+			trace = NULL
+			if(j==1)
+				trace = propTrace
+			if(j==2)
+				trace = mapsTrace
 			ylim = NULL
 			if(metric == "CPU Load (Normalized) [%]")
 				ylim = c(1,100)
@@ -224,6 +234,7 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 			print(filename)
 			png(filename)
 			makeDygraph(instList[[j]],metric, Ylim = ylim)
+			plotTrace(trace,5,ylim[1])
 			dev.off()
 			
 			filename = paste(dirs[j], names[j,2], metric,sep="")
@@ -232,6 +243,7 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 			print(filename)
 			png(filename)
 			makeDygraph(instList[[j+3]],metric, Ylim = ylim)
+			plotTrace(trace,5,ylim[1])
 			dev.off()
 			
 			filename = paste(dirs[j], "meanCompare", metric,sep="")
@@ -240,6 +252,7 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 			print(filename)
 			png(filename)
 			compareMeans(getMean(instList[[j]]), getMean(instList[[j+3]]), metric, min=ylim[1], max=ylim[2])
+			plotTrace(trace,5,ylim[1])
 			dev.off()
 		}
 	}

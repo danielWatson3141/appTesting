@@ -151,6 +151,8 @@ classIDF = function(DTMRow, scores = FALSE, dfMat = tfIdf, retN = 1){
 		for(term in colnames(DTMRow)){
 			#print(term)
 			if(term %in% colnames(dfMat)){
+				if(debug)
+					browser()
 				score[i] = score[i]+(dfMat[i,term]*DTMRow[,term])
 			}
 		}
@@ -203,13 +205,13 @@ predictForCSV = function(data, dfMat = tfIdf, n=3){
 	#browser()
 	classes = lapply(ids, function(id){ClassifyForID(id, data,dfMat,n)})
 	classes = matrix(unlist(classes),nrow(data),n,byrow=TRUE)
-	browser()
-	data$pred1 = classes[,1]
-	data$pred2 = classes[,2]
-	data$pred3 = classes[,3]
-	data$termMatrix=NULL
-	browser()
+
+	data$pred = classes[,1]
+	
+	#data$termMatrix=NULL
+	
+	write.csv(data,"classResultsFull.csv")
+	
 	return(data)
-	#browser()
-	#write.csv(newData,"top500Sug.csv")
+	
 }
