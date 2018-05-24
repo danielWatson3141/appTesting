@@ -26,6 +26,7 @@ compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors
 	#compare separate instances (or lists of instances) by sorting and graphing points
 	
 	
+	
 	#bind instances if multiple
 	if(typeof(inst1)=="list"){
 		inst1 = do.call(rbind, inst1, 1)
@@ -48,7 +49,7 @@ compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors
 	if(length(met1)>length(met2)){
 		toRem = sample(length(met1), length(met1)-length(met2), replace = FALSE)
 		met1 = met1[-toRem]
-	}else{
+	}else if(length(met1)<length(met2)){
 		toRem = sample(length(met2), length(met2)-length(met1), replace = FALSE)
 		met2 = met2[-toRem]
 	}
@@ -59,8 +60,9 @@ compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors
 	indMax = max(length(met1), length(met2))
 	
 	print(c(length(met1), length(met2)))
-	
-	plot(met1, col="red", xlim = c(1, indMax), ylim = c(ymin, ymax))
+	if(debug)
+		browser()
+	plot(met1, col="red", xlim = c(1, indMax), ylim = c(ymin, ymax), ylab=metric,  main = paste(metric, " VS ", "Sorted Observations"))
 	points(met2, col="blue",  xlim = c(1, indMax), ylim = c(ymin, ymax))
 }
 
@@ -193,8 +195,6 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 plotTrace = function(spTrace, leadTime, plotHeight=0){
 	if(is.null(spTrace))
 		return()
-	if(debug)
-		browser()
 	spTrace = (spTrace)*1000+leadTime*1000
 	#print(spTrace)
 	drawLine = function(x){
@@ -209,7 +209,7 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 	names = matrix(c("AndrProperty", "RNProperty", 
 					"AndrMaps", "RNMaps",
 					"AndrMatrix", "RNMatrix"), nrow=3, ncol=2, byrow=TRUE)
-	
+	delays = c(7.5,5,0)
 	#metrics = c("Instances", "Dygraph", "Sorted", "MeanComp")
 	metrics = colnames(instList[[1]][[1]])
 	print(metrics)
@@ -218,6 +218,9 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 		print(metric)
 		
 		for(j in 1:3){
+			
+			
+			
 			trace = NULL
 			if(j==1)
 				trace = propTrace
@@ -226,15 +229,18 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 			ylim = NULL
 			if(metric == "CPU Load (Normalized) [%]")
 				ylim = c(1,100)
-			else
+			else if(j==3)
 				ylim = c(1600000, 1900000)
+			else
+				ylim = c(1700000, 1900000)
+			
 			filename = paste(dirs[j], names[j,1], metric,sep="")
 			filename = gsub("\\s.*", "", filename)
 			filename = paste(filename,".png", sep = "")
 			print(filename)
 			png(filename)
 			makeDygraph(instList[[j]],metric, Ylim = ylim)
-			plotTrace(trace,5,ylim[1])
+			plotTrace(trace,delays[j],ylim[1])
 			dev.off()
 			
 			filename = paste(dirs[j], names[j,2], metric,sep="")
@@ -243,7 +249,7 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 			print(filename)
 			png(filename)
 			makeDygraph(instList[[j+3]],metric, Ylim = ylim)
-			plotTrace(trace,5,ylim[1])
+			plotTrace(trace,delays[j],ylim[1])
 			dev.off()
 			
 			filename = paste(dirs[j], "meanCompare", metric,sep="")
@@ -252,9 +258,22 @@ generateAndSavePlots = function(instList, propTrace, mapsTrace){
 			print(filename)
 			png(filename)
 			compareMeans(getMean(instList[[j]]), getMean(instList[[j+3]]), metric, min=ylim[1], max=ylim[2])
-			plotTrace(trace,5,ylim[1])
+			legend(0,ylim[2],c("Android","React-Native"),c("red","blue"))
+			plotTrace(trace,delays[j],ylim[1])
 			dev.off()
+			
+			filename = paste(dirs[j], "sortCompare", metric,sep="")
+			filename = gsub("\\s.*", "", filename)
+			filename = paste(filename,".png", sep = "")
+			print(filename)
+			png(filename)
+			compareSorts(instList[[j]],instList[[j+3]],metric)			
+			legend(0,ylim[2],c("Android","React-Native"),c("red","blue"))
+			dev.off()
+			
 		}
+		
+		closeAllConnections()
 	}
 		
 		

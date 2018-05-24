@@ -1,0 +1,21 @@
+Property
+
+1- andCPU
+2- rnCPU
+3- compCPU
+4- sortCPU
+5- andMem
+6- RNMem
+7- compMem
+8- sortMem
+
+Matrix
+
+9- andCPU
+10- rnCPU
+11- compCPU
+12- sortCPU
+13- andMem
+14- RNMem
+15- compMem
+16- sortMem
