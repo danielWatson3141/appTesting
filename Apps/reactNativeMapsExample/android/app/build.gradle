@@ -97,6 +97,10 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
+    aaptOptions{
+        cruncherEnabled = false
+    }
+
     defaultConfig {
         applicationId "com.reactnativemapsexample"
         minSdkVersion 16
@@ -139,6 +143,7 @@ android {
 dependencies {
     compile project(':react-native-maps')
     compile fileTree(dir: "libs", include: ["*.jar"])
+    //noinspection GradleCompatible
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
 }

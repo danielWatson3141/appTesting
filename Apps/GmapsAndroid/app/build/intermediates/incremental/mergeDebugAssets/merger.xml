@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/larumuga/workspace/appTesting/Apps/GmapsAndroid/app/src/main/assets"/><source path="/home/larumuga/workspace/appTesting/Apps/GmapsAndroid/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/larumuga/workspace/appTesting/Apps/GmapsAndroid/app/src/debug/assets"/></dataSet></merger>
