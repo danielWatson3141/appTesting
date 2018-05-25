@@ -1,0 +1,20 @@
+Class,Gist,Example 1,Example 2,Example 3
+Animations/visuals/styles    ,How can I make my app look or move the way I want it to?,Can I make dynamic styles in React Native?,Does React Native styles support gradients?,React Native Border Radius with background color
+Building/Development/IDE       ,How do I compile my program under these conditions? How do I set up my environment? What IDE tools and configurations should I use?,React Native android build failed. SDK location not found,Can I build Android apps with react native?,How to build react native android app for production?
+Camera                     ,How do I use the system's camera functionality in this way?,NSPhotoLibraryUsageDescription key must be present in Info.plist to use camera roll,Barcode scanning using react native,Simple example for accessing the camera via WebRTC in react-native (Android)
+Components                     ,How do I get this behaviour from my apps' components?,Passing Parameters to Components in React Native,How to create custom React Native components with child nodes,How to pass a component reference to onPress callback?
+Debugging            ,How do I perform this debugging related action? How do I debug React-Native under these conditions?,How do you debug react-native?,Run react-native on android emulator,How can I view network requests (for debugging) in React Native?
+External/OS Services           ,How do I use this operating system or third party service in my app?,,,
+Filesystems / Database    ,How do I perform these filesystem or database operations? How do I connect to and utilize a database?,,,
+Firebase/Expo                  ,"I would like to use firebase/expo services in my app, how do I integrate? ",,,
+FlatList/ListView/ScrollView  ,I'm having a problem or would like to perform a specialized task using React-Native's List or ScrollView.,,,
+JS syntax / general programming,Help! My Javascript won't compile! Or  HELP! How do I solve this basic programming task?,,,
+Libraries/API        ,I'm having trouble including or using libraries in my project. Is there a library that does …?,,,
+Navigation                     ,I'm having a problem or would like to perform a specialized task using React-Native's app Navigator.,,,
+Network             ,I need to connect to server or connect peers to each other over the internet.,,,
+Redux                          ,I'm having trouble using some feature of Redux in React-Native.,,,
+Router/Flux          ,I'm having trouble using some feature of Router Flux in React-Native.,,,
+State                          ,I need my application state to change or I need my app to respond to state change in this way.,,,
+UI elements/Views      ,I need help placing these UI elements in this view in this way. I need my views to behave in this way.,,,
+VCS/NPM                        ,I need help setting up my React-Native project or performing a particular task in a VCS.,,,
+Webview                        ,"I'm trying to icorporate React-Native's Webview into my app, how do I include this functionality?",,,
