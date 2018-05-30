@@ -39,7 +39,6 @@
         android:layout_centerVertical="true"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="London"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="200dp" />
 
