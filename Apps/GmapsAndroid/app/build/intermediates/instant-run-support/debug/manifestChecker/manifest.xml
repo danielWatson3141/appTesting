@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lakshmanan.gmapsandroid"
+    package="com.AN_Maps"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -33,10 +33,10 @@
         android:required="true" />
 
     <permission
-        android:name="com.example.lakshmanan.gmapsandroid.permission.C2D_MESSAGE"
+        android:name="com.AN_Maps.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.lakshmanan.gmapsandroid.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.AN_Maps.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
@@ -163,7 +163,7 @@
             android:exported="true"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.com.example.lakshmanan.gmapsandroid" />
+                <data android:scheme="tagmanager.c.com.AN_Maps" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -204,7 +204,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.example.lakshmanan.gmapsandroid" />
+                <category android:name="com.AN_Maps" />
             </intent-filter>
         </receiver>
         <!--
@@ -221,7 +221,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.lakshmanan.gmapsandroid.firebaseinitprovider"
+            android:authorities="com.AN_Maps.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -234,7 +234,7 @@
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.example.lakshmanan.gmapsandroid.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.AN_Maps.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

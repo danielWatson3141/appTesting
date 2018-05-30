@@ -9,7 +9,7 @@ package com.example.lakshmanan.gmapsandroid;
 
 public final class Manifest {
   public static final class permission {
-    public static final String C2D_MESSAGE="com.example.lakshmanan.gmapsandroid.permission.C2D_MESSAGE";
+    public static final String C2D_MESSAGE="com.AN_Maps.permission.C2D_MESSAGE";
   }
 
 }

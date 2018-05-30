@@ -98,7 +98,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.matrixmultiplyrn"
+        applicationId "com.RN_Matr"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

@@ -4877,35 +4877,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.lakshmanan.gmapsandroid:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.lakshmanan.gmapsandroid:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.lakshmanan.gmapsandroid:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.lakshmanan.gmapsandroid:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.lakshmanan.gmapsandroid:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.lakshmanan.gmapsandroid:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.lakshmanan.gmapsandroid:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.lakshmanan.gmapsandroid:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.lakshmanan.gmapsandroid:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.lakshmanan.gmapsandroid:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.lakshmanan.gmapsandroid:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.lakshmanan.gmapsandroid:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.lakshmanan.gmapsandroid:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.lakshmanan.gmapsandroid:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.lakshmanan.gmapsandroid:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.lakshmanan.gmapsandroid:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.lakshmanan.gmapsandroid:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.lakshmanan.gmapsandroid:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.lakshmanan.gmapsandroid:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.lakshmanan.gmapsandroid:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.lakshmanan.gmapsandroid:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.lakshmanan.gmapsandroid:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.lakshmanan.gmapsandroid:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.lakshmanan.gmapsandroid:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.lakshmanan.gmapsandroid:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.lakshmanan.gmapsandroid:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.lakshmanan.gmapsandroid:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.lakshmanan.gmapsandroid:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.lakshmanan.gmapsandroid:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.AN_Maps:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.AN_Maps:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.AN_Maps:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.AN_Maps:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.AN_Maps:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.AN_Maps:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.AN_Maps:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.AN_Maps:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.AN_Maps:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.AN_Maps:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.AN_Maps:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.AN_Maps:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.AN_Maps:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.AN_Maps:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.AN_Maps:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.AN_Maps:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.AN_Maps:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.AN_Maps:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.AN_Maps:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.AN_Maps:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.AN_Maps:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.AN_Maps:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.AN_Maps:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.AN_Maps:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.AN_Maps:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.AN_Maps:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.AN_Maps:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.AN_Maps:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.AN_Maps:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4991,7 +4991,7 @@ public final class R {
      */
     public static final int ActionBarLayout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4999,11 +4999,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:background
+     * @attr name com.AN_Maps:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5014,11 +5014,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:backgroundSplit
+     * @attr name com.AN_Maps:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5029,11 +5029,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:backgroundStacked
+     * @attr name com.AN_Maps:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5042,11 +5042,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetEnd
+     * @attr name com.AN_Maps:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5055,11 +5055,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetEndWithActions
+     * @attr name com.AN_Maps:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5068,11 +5068,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetLeft
+     * @attr name com.AN_Maps:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5081,11 +5081,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetRight
+     * @attr name com.AN_Maps:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5094,11 +5094,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetStart
+     * @attr name com.AN_Maps:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5107,11 +5107,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetStartWithNavigation
+     * @attr name com.AN_Maps:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5119,11 +5119,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:customNavigationLayout
+     * @attr name com.AN_Maps:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5141,11 +5141,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:displayOptions
+     * @attr name com.AN_Maps:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5153,11 +5153,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:divider
+     * @attr name com.AN_Maps:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5166,11 +5166,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:elevation
+     * @attr name com.AN_Maps:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5179,21 +5179,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:height
+     * @attr name com.AN_Maps:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:hideOnContentScroll
+     * @attr name com.AN_Maps:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5201,11 +5201,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:homeAsUpIndicator
+     * @attr name com.AN_Maps:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5213,11 +5213,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:homeLayout
+     * @attr name com.AN_Maps:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5225,11 +5225,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:icon
+     * @attr name com.AN_Maps:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5237,11 +5237,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:indeterminateProgressStyle
+     * @attr name com.AN_Maps:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5250,11 +5250,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:itemPadding
+     * @attr name com.AN_Maps:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5262,11 +5262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:logo
+     * @attr name com.AN_Maps:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5280,11 +5280,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:navigationMode
+     * @attr name com.AN_Maps:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5292,11 +5292,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:popupTheme
+     * @attr name com.AN_Maps:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5305,11 +5305,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:progressBarPadding
+     * @attr name com.AN_Maps:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5317,21 +5317,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:progressBarStyle
+     * @attr name com.AN_Maps:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subtitle
+     * @attr name com.AN_Maps:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5339,21 +5339,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subtitleTextStyle
+     * @attr name com.AN_Maps:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:title
+     * @attr name com.AN_Maps:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5361,7 +5361,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleTextStyle
+     * @attr name com.AN_Maps:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -5400,12 +5400,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.lakshmanan.gmapsandroid:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.lakshmanan.gmapsandroid:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.lakshmanan.gmapsandroid:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.lakshmanan.gmapsandroid:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.lakshmanan.gmapsandroid:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.lakshmanan.gmapsandroid:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.AN_Maps:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.AN_Maps:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.AN_Maps:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.AN_Maps:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.AN_Maps:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.AN_Maps:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -5419,7 +5419,7 @@ public final class R {
         0x7f03015f, 0x7f030183
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5427,11 +5427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:background
+     * @attr name com.AN_Maps:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5442,11 +5442,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:backgroundSplit
+     * @attr name com.AN_Maps:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5454,11 +5454,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:closeItemLayout
+     * @attr name com.AN_Maps:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5467,11 +5467,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:height
+     * @attr name com.AN_Maps:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5479,11 +5479,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subtitleTextStyle
+     * @attr name com.AN_Maps:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5491,7 +5491,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleTextStyle
+     * @attr name com.AN_Maps:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -5501,8 +5501,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.lakshmanan.gmapsandroid:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.lakshmanan.gmapsandroid:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.AN_Maps:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.AN_Maps:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -5511,7 +5511,7 @@ public final class R {
         0x7f0300a9, 0x7f0300c7
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5519,17 +5519,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:expandActivityOverflowButtonDrawable
+     * @attr name com.AN_Maps:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:initialActivityCount
+     * @attr name com.AN_Maps:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -5539,9 +5539,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSize com.example.lakshmanan.gmapsandroid:adSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSizes com.example.lakshmanan.gmapsandroid:adSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adUnitId com.example.lakshmanan.gmapsandroid:adUnitId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSize com.AN_Maps:adSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSizes com.AN_Maps:adSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adUnitId com.AN_Maps:adUnitId}</code></td><td></td></tr>
      * </table>
      * @see #AdsAttrs_adSize
      * @see #AdsAttrs_adSizes
@@ -5551,33 +5551,33 @@ public final class R {
         0x7f030022, 0x7f030023, 0x7f030024
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#adSize}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#adSize}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:adSize
+     * @attr name com.AN_Maps:adSize
      */
     public static final int AdsAttrs_adSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#adSizes}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#adSizes}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:adSizes
+     * @attr name com.AN_Maps:adSizes
      */
     public static final int AdsAttrs_adSizes=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#adUnitId}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#adUnitId}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:adUnitId
+     * @attr name com.AN_Maps:adUnitId
      */
     public static final int AdsAttrs_adUnitId=2;
     /**
@@ -5588,12 +5588,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.lakshmanan.gmapsandroid:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.lakshmanan.gmapsandroid:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.lakshmanan.gmapsandroid:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.lakshmanan.gmapsandroid:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.example.lakshmanan.gmapsandroid:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.lakshmanan.gmapsandroid:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.AN_Maps:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.AN_Maps:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.AN_Maps:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.AN_Maps:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.AN_Maps:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.AN_Maps:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -5620,7 +5620,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5628,11 +5628,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonPanelSideLayout
+     * @attr name com.AN_Maps:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5640,11 +5640,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listItemLayout
+     * @attr name com.AN_Maps:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5652,11 +5652,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listLayout
+     * @attr name com.AN_Maps:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5664,21 +5664,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:multiChoiceItemLayout
+     * @attr name com.AN_Maps:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:showTitle
+     * @attr name com.AN_Maps:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5686,7 +5686,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:singleChoiceItemLayout
+     * @attr name com.AN_Maps:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -5697,9 +5697,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.lakshmanan.gmapsandroid:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.example.lakshmanan.gmapsandroid:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.lakshmanan.gmapsandroid:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.AN_Maps:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.AN_Maps:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.AN_Maps:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5725,7 +5725,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5733,22 +5733,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:srcCompat
+     * @attr name com.AN_Maps:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tint
+     * @attr name com.AN_Maps:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5764,7 +5764,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tintMode
+     * @attr name com.AN_Maps:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5775,9 +5775,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.lakshmanan.gmapsandroid:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.lakshmanan.gmapsandroid:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.lakshmanan.gmapsandroid:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.AN_Maps:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.AN_Maps:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.AN_Maps:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5800,7 +5800,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5808,22 +5808,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tickMark
+     * @attr name com.AN_Maps:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tickMarkTint
+     * @attr name com.AN_Maps:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5840,7 +5840,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tickMarkTintMode
+     * @attr name com.AN_Maps:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5980,13 +5980,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.example.lakshmanan.gmapsandroid:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.example.lakshmanan.gmapsandroid:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.example.lakshmanan.gmapsandroid:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.example.lakshmanan.gmapsandroid:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.example.lakshmanan.gmapsandroid:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.example.lakshmanan.gmapsandroid:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.lakshmanan.gmapsandroid:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.AN_Maps:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.AN_Maps:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.AN_Maps:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.AN_Maps:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.AN_Maps:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.AN_Maps:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.AN_Maps:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -6014,7 +6014,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6023,11 +6023,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:autoSizeMaxTextSize
+     * @attr name com.AN_Maps:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6036,11 +6036,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:autoSizeMinTextSize
+     * @attr name com.AN_Maps:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6048,11 +6048,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:autoSizePresetSizes
+     * @attr name com.AN_Maps:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6061,11 +6061,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:autoSizeStepGranularity
+     * @attr name com.AN_Maps:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6078,21 +6078,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:autoSizeTextType
+     * @attr name com.AN_Maps:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontFamily
+     * @attr name com.AN_Maps:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6102,7 +6102,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAllCaps
+     * @attr name com.AN_Maps:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -6114,123 +6114,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.lakshmanan.gmapsandroid:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.lakshmanan.gmapsandroid:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.lakshmanan.gmapsandroid:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.lakshmanan.gmapsandroid:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.lakshmanan.gmapsandroid:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.lakshmanan.gmapsandroid:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.lakshmanan.gmapsandroid:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.lakshmanan.gmapsandroid:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.lakshmanan.gmapsandroid:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.lakshmanan.gmapsandroid:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.lakshmanan.gmapsandroid:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.lakshmanan.gmapsandroid:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.lakshmanan.gmapsandroid:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.lakshmanan.gmapsandroid:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.lakshmanan.gmapsandroid:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.lakshmanan.gmapsandroid:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.lakshmanan.gmapsandroid:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.lakshmanan.gmapsandroid:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.lakshmanan.gmapsandroid:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.lakshmanan.gmapsandroid:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.lakshmanan.gmapsandroid:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.lakshmanan.gmapsandroid:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.lakshmanan.gmapsandroid:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.lakshmanan.gmapsandroid:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.lakshmanan.gmapsandroid:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.lakshmanan.gmapsandroid:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.lakshmanan.gmapsandroid:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.lakshmanan.gmapsandroid:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.lakshmanan.gmapsandroid:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.lakshmanan.gmapsandroid:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.lakshmanan.gmapsandroid:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.lakshmanan.gmapsandroid:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.lakshmanan.gmapsandroid:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.lakshmanan.gmapsandroid:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.lakshmanan.gmapsandroid:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.lakshmanan.gmapsandroid:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.lakshmanan.gmapsandroid:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.lakshmanan.gmapsandroid:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.lakshmanan.gmapsandroid:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.lakshmanan.gmapsandroid:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.lakshmanan.gmapsandroid:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.lakshmanan.gmapsandroid:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.lakshmanan.gmapsandroid:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.lakshmanan.gmapsandroid:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.lakshmanan.gmapsandroid:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.lakshmanan.gmapsandroid:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.lakshmanan.gmapsandroid:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.lakshmanan.gmapsandroid:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.lakshmanan.gmapsandroid:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.lakshmanan.gmapsandroid:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.lakshmanan.gmapsandroid:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.lakshmanan.gmapsandroid:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.example.lakshmanan.gmapsandroid:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.lakshmanan.gmapsandroid:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.lakshmanan.gmapsandroid:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.lakshmanan.gmapsandroid:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.lakshmanan.gmapsandroid:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.lakshmanan.gmapsandroid:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.lakshmanan.gmapsandroid:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.lakshmanan.gmapsandroid:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.lakshmanan.gmapsandroid:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.lakshmanan.gmapsandroid:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.lakshmanan.gmapsandroid:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.lakshmanan.gmapsandroid:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.lakshmanan.gmapsandroid:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.lakshmanan.gmapsandroid:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.lakshmanan.gmapsandroid:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.lakshmanan.gmapsandroid:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.lakshmanan.gmapsandroid:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.lakshmanan.gmapsandroid:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.lakshmanan.gmapsandroid:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.lakshmanan.gmapsandroid:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.lakshmanan.gmapsandroid:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.lakshmanan.gmapsandroid:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.lakshmanan.gmapsandroid:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.lakshmanan.gmapsandroid:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.lakshmanan.gmapsandroid:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.lakshmanan.gmapsandroid:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.lakshmanan.gmapsandroid:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.lakshmanan.gmapsandroid:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.lakshmanan.gmapsandroid:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.lakshmanan.gmapsandroid:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.lakshmanan.gmapsandroid:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.lakshmanan.gmapsandroid:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.lakshmanan.gmapsandroid:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.lakshmanan.gmapsandroid:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.lakshmanan.gmapsandroid:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.lakshmanan.gmapsandroid:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.lakshmanan.gmapsandroid:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.lakshmanan.gmapsandroid:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.lakshmanan.gmapsandroid:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.lakshmanan.gmapsandroid:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.lakshmanan.gmapsandroid:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.lakshmanan.gmapsandroid:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.lakshmanan.gmapsandroid:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.lakshmanan.gmapsandroid:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.lakshmanan.gmapsandroid:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.lakshmanan.gmapsandroid:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.lakshmanan.gmapsandroid:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.lakshmanan.gmapsandroid:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.lakshmanan.gmapsandroid:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.lakshmanan.gmapsandroid:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.lakshmanan.gmapsandroid:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.lakshmanan.gmapsandroid:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.lakshmanan.gmapsandroid:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.example.lakshmanan.gmapsandroid:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.example.lakshmanan.gmapsandroid:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.lakshmanan.gmapsandroid:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.lakshmanan.gmapsandroid:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.lakshmanan.gmapsandroid:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.lakshmanan.gmapsandroid:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.lakshmanan.gmapsandroid:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.lakshmanan.gmapsandroid:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.lakshmanan.gmapsandroid:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.lakshmanan.gmapsandroid:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.lakshmanan.gmapsandroid:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.lakshmanan.gmapsandroid:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.AN_Maps:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.AN_Maps:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.AN_Maps:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.AN_Maps:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.AN_Maps:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.AN_Maps:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.AN_Maps:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.AN_Maps:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.AN_Maps:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.AN_Maps:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.AN_Maps:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.AN_Maps:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.AN_Maps:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.AN_Maps:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.AN_Maps:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.AN_Maps:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.AN_Maps:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.AN_Maps:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.AN_Maps:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.AN_Maps:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.AN_Maps:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.AN_Maps:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.AN_Maps:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.AN_Maps:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.AN_Maps:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.AN_Maps:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.AN_Maps:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.AN_Maps:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.AN_Maps:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.AN_Maps:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.AN_Maps:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.AN_Maps:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.AN_Maps:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.AN_Maps:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.AN_Maps:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.AN_Maps:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.AN_Maps:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.AN_Maps:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.AN_Maps:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.AN_Maps:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.AN_Maps:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.AN_Maps:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.AN_Maps:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.AN_Maps:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.AN_Maps:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.AN_Maps:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.AN_Maps:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.AN_Maps:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.AN_Maps:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.AN_Maps:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.AN_Maps:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.AN_Maps:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.AN_Maps:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.AN_Maps:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.AN_Maps:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.AN_Maps:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.AN_Maps:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.AN_Maps:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.AN_Maps:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.AN_Maps:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.AN_Maps:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.AN_Maps:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.AN_Maps:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.AN_Maps:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.AN_Maps:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.AN_Maps:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.AN_Maps:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.AN_Maps:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.AN_Maps:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.AN_Maps:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.AN_Maps:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.AN_Maps:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.AN_Maps:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.AN_Maps:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.AN_Maps:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.AN_Maps:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.AN_Maps:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.AN_Maps:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.AN_Maps:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.AN_Maps:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.AN_Maps:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.AN_Maps:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.AN_Maps:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.AN_Maps:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.AN_Maps:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.AN_Maps:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.AN_Maps:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.AN_Maps:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.AN_Maps:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.AN_Maps:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.AN_Maps:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.AN_Maps:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.AN_Maps:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.AN_Maps:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.AN_Maps:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.AN_Maps:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.AN_Maps:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.AN_Maps:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.AN_Maps:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.AN_Maps:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.AN_Maps:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.AN_Maps:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.AN_Maps:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.AN_Maps:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.AN_Maps:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.AN_Maps:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.AN_Maps:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.AN_Maps:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.AN_Maps:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.AN_Maps:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.AN_Maps:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.AN_Maps:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.AN_Maps:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.AN_Maps:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.AN_Maps:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.AN_Maps:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.AN_Maps:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -6385,7 +6385,7 @@ public final class R {
         0x7f0301a2, 0x7f0301a3, 0x7f0301a4
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6393,11 +6393,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarDivider
+     * @attr name com.AN_Maps:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6405,11 +6405,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarItemBackground
+     * @attr name com.AN_Maps:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6417,11 +6417,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarPopupTheme
+     * @attr name com.AN_Maps:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6438,11 +6438,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarSize
+     * @attr name com.AN_Maps:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6450,11 +6450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarSplitStyle
+     * @attr name com.AN_Maps:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6462,11 +6462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarStyle
+     * @attr name com.AN_Maps:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6474,11 +6474,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarTabBarStyle
+     * @attr name com.AN_Maps:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6486,11 +6486,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarTabStyle
+     * @attr name com.AN_Maps:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6498,11 +6498,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarTabTextStyle
+     * @attr name com.AN_Maps:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6510,11 +6510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarTheme
+     * @attr name com.AN_Maps:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6522,11 +6522,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionBarWidgetTheme
+     * @attr name com.AN_Maps:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6534,11 +6534,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionButtonStyle
+     * @attr name com.AN_Maps:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6546,11 +6546,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionDropDownStyle
+     * @attr name com.AN_Maps:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6558,11 +6558,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionMenuTextAppearance
+     * @attr name com.AN_Maps:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6573,11 +6573,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionMenuTextColor
+     * @attr name com.AN_Maps:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6585,11 +6585,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeBackground
+     * @attr name com.AN_Maps:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6597,11 +6597,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeCloseButtonStyle
+     * @attr name com.AN_Maps:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6609,11 +6609,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeCloseDrawable
+     * @attr name com.AN_Maps:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6621,11 +6621,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeCopyDrawable
+     * @attr name com.AN_Maps:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6633,11 +6633,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeCutDrawable
+     * @attr name com.AN_Maps:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6645,11 +6645,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeFindDrawable
+     * @attr name com.AN_Maps:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6657,11 +6657,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModePasteDrawable
+     * @attr name com.AN_Maps:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6669,11 +6669,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModePopupWindowStyle
+     * @attr name com.AN_Maps:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6681,11 +6681,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeSelectAllDrawable
+     * @attr name com.AN_Maps:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6693,11 +6693,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeShareDrawable
+     * @attr name com.AN_Maps:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6705,11 +6705,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeSplitBackground
+     * @attr name com.AN_Maps:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6717,11 +6717,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeStyle
+     * @attr name com.AN_Maps:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6729,11 +6729,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionModeWebSearchDrawable
+     * @attr name com.AN_Maps:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6741,11 +6741,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionOverflowButtonStyle
+     * @attr name com.AN_Maps:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6753,11 +6753,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionOverflowMenuStyle
+     * @attr name com.AN_Maps:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6765,11 +6765,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:activityChooserViewStyle
+     * @attr name com.AN_Maps:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6777,21 +6777,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:alertDialogButtonGroupStyle
+     * @attr name com.AN_Maps:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:alertDialogCenterButtons
+     * @attr name com.AN_Maps:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6799,11 +6799,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:alertDialogStyle
+     * @attr name com.AN_Maps:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6811,7 +6811,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:alertDialogTheme
+     * @attr name com.AN_Maps:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -6837,7 +6837,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowIsFloating=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6845,11 +6845,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:autoCompleteTextViewStyle
+     * @attr name com.AN_Maps:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6857,11 +6857,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:borderlessButtonStyle
+     * @attr name com.AN_Maps:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6869,11 +6869,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonBarButtonStyle
+     * @attr name com.AN_Maps:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6881,11 +6881,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonBarNegativeButtonStyle
+     * @attr name com.AN_Maps:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6893,11 +6893,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonBarNeutralButtonStyle
+     * @attr name com.AN_Maps:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6905,11 +6905,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonBarPositiveButtonStyle
+     * @attr name com.AN_Maps:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6917,11 +6917,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonBarStyle
+     * @attr name com.AN_Maps:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6929,11 +6929,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonStyle
+     * @attr name com.AN_Maps:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6941,11 +6941,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonStyleSmall
+     * @attr name com.AN_Maps:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6953,11 +6953,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:checkboxStyle
+     * @attr name com.AN_Maps:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6965,77 +6965,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:checkedTextViewStyle
+     * @attr name com.AN_Maps:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorAccent
+     * @attr name com.AN_Maps:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorBackgroundFloating
+     * @attr name com.AN_Maps:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorButtonNormal
+     * @attr name com.AN_Maps:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorControlActivated
+     * @attr name com.AN_Maps:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorControlHighlight
+     * @attr name com.AN_Maps:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorControlNormal
+     * @attr name com.AN_Maps:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7046,44 +7046,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorError
+     * @attr name com.AN_Maps:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorPrimary
+     * @attr name com.AN_Maps:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorPrimaryDark
+     * @attr name com.AN_Maps:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorSwitchThumbNormal
+     * @attr name com.AN_Maps:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7091,11 +7091,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:controlBackground
+     * @attr name com.AN_Maps:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7104,11 +7104,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dialogPreferredPadding
+     * @attr name com.AN_Maps:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7116,11 +7116,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dialogTheme
+     * @attr name com.AN_Maps:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7128,11 +7128,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dividerHorizontal
+     * @attr name com.AN_Maps:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7140,11 +7140,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dividerVertical
+     * @attr name com.AN_Maps:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7152,11 +7152,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dropDownListViewStyle
+     * @attr name com.AN_Maps:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7165,11 +7165,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dropdownListPreferredItemHeight
+     * @attr name com.AN_Maps:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7177,11 +7177,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:editTextBackground
+     * @attr name com.AN_Maps:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7192,11 +7192,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:editTextColor
+     * @attr name com.AN_Maps:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7204,11 +7204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:editTextStyle
+     * @attr name com.AN_Maps:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7216,11 +7216,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:homeAsUpIndicator
+     * @attr name com.AN_Maps:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7228,11 +7228,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:imageButtonStyle
+     * @attr name com.AN_Maps:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7240,11 +7240,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listChoiceBackgroundIndicator
+     * @attr name com.AN_Maps:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7252,11 +7252,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listDividerAlertDialog
+     * @attr name com.AN_Maps:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7264,11 +7264,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listMenuViewStyle
+     * @attr name com.AN_Maps:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7276,11 +7276,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listPopupWindowStyle
+     * @attr name com.AN_Maps:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7289,11 +7289,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listPreferredItemHeight
+     * @attr name com.AN_Maps:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7302,11 +7302,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listPreferredItemHeightLarge
+     * @attr name com.AN_Maps:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7315,11 +7315,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listPreferredItemHeightSmall
+     * @attr name com.AN_Maps:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7328,11 +7328,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listPreferredItemPaddingLeft
+     * @attr name com.AN_Maps:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7341,11 +7341,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:listPreferredItemPaddingRight
+     * @attr name com.AN_Maps:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7353,11 +7353,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:panelBackground
+     * @attr name com.AN_Maps:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7365,11 +7365,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:panelMenuListTheme
+     * @attr name com.AN_Maps:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7378,11 +7378,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:panelMenuListWidth
+     * @attr name com.AN_Maps:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7390,11 +7390,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:popupMenuStyle
+     * @attr name com.AN_Maps:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7402,11 +7402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:popupWindowStyle
+     * @attr name com.AN_Maps:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7414,11 +7414,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:radioButtonStyle
+     * @attr name com.AN_Maps:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7426,11 +7426,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:ratingBarStyle
+     * @attr name com.AN_Maps:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7438,11 +7438,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:ratingBarStyleIndicator
+     * @attr name com.AN_Maps:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7450,11 +7450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:ratingBarStyleSmall
+     * @attr name com.AN_Maps:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7462,11 +7462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:searchViewStyle
+     * @attr name com.AN_Maps:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7474,11 +7474,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:seekBarStyle
+     * @attr name com.AN_Maps:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7486,11 +7486,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:selectableItemBackground
+     * @attr name com.AN_Maps:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7498,11 +7498,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:selectableItemBackgroundBorderless
+     * @attr name com.AN_Maps:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7510,11 +7510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:spinnerDropDownItemStyle
+     * @attr name com.AN_Maps:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7522,11 +7522,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:spinnerStyle
+     * @attr name com.AN_Maps:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7534,11 +7534,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:switchStyle
+     * @attr name com.AN_Maps:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7546,11 +7546,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceLargePopupMenu
+     * @attr name com.AN_Maps:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7558,11 +7558,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceListItem
+     * @attr name com.AN_Maps:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7570,11 +7570,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceListItemSecondary
+     * @attr name com.AN_Maps:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7582,11 +7582,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceListItemSmall
+     * @attr name com.AN_Maps:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7594,11 +7594,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearancePopupMenuHeader
+     * @attr name com.AN_Maps:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7606,11 +7606,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceSearchResultSubtitle
+     * @attr name com.AN_Maps:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7618,11 +7618,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceSearchResultTitle
+     * @attr name com.AN_Maps:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7630,11 +7630,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAppearanceSmallPopupMenu
+     * @attr name com.AN_Maps:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7645,11 +7645,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textColorAlertDialogListItem
+     * @attr name com.AN_Maps:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7660,11 +7660,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textColorSearchUrl
+     * @attr name com.AN_Maps:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7672,11 +7672,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:toolbarNavigationButtonStyle
+     * @attr name com.AN_Maps:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7684,11 +7684,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:toolbarStyle
+     * @attr name com.AN_Maps:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7699,11 +7699,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tooltipForegroundColor
+     * @attr name com.AN_Maps:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7711,41 +7711,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tooltipFrameBackground
+     * @attr name com.AN_Maps:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowActionBar
+     * @attr name com.AN_Maps:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowActionBarOverlay
+     * @attr name com.AN_Maps:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowActionModeOverlay
+     * @attr name com.AN_Maps:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7758,11 +7758,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowFixedHeightMajor
+     * @attr name com.AN_Maps:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7775,11 +7775,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowFixedHeightMinor
+     * @attr name com.AN_Maps:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7792,11 +7792,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowFixedWidthMajor
+     * @attr name com.AN_Maps:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7809,11 +7809,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowFixedWidthMinor
+     * @attr name com.AN_Maps:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7826,11 +7826,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowMinWidthMajor
+     * @attr name com.AN_Maps:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7843,17 +7843,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowMinWidthMinor
+     * @attr name com.AN_Maps:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowNoTitle
+     * @attr name com.AN_Maps:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
     public static final int[] AppDataSearch={
@@ -7865,7 +7865,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.lakshmanan.gmapsandroid:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.AN_Maps:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -7873,13 +7873,13 @@ public final class R {
         0x7f03002a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:allowStacking
+     * @attr name com.AN_Maps:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7889,19 +7889,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CastExpandedController_castButtonColor com.example.lakshmanan.gmapsandroid:castButtonColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castClosedCaptionsButtonDrawable com.example.lakshmanan.gmapsandroid:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castControlButtons com.example.lakshmanan.gmapsandroid:castControlButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castForward30ButtonDrawable com.example.lakshmanan.gmapsandroid:castForward30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castMuteToggleButtonDrawable com.example.lakshmanan.gmapsandroid:castMuteToggleButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castPauseButtonDrawable com.example.lakshmanan.gmapsandroid:castPauseButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castPlayButtonDrawable com.example.lakshmanan.gmapsandroid:castPlayButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castRewind30ButtonDrawable com.example.lakshmanan.gmapsandroid:castRewind30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSeekBarProgressDrawable com.example.lakshmanan.gmapsandroid:castSeekBarProgressDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSeekBarThumbDrawable com.example.lakshmanan.gmapsandroid:castSeekBarThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSkipNextButtonDrawable com.example.lakshmanan.gmapsandroid:castSkipNextButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSkipPreviousButtonDrawable com.example.lakshmanan.gmapsandroid:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castStopButtonDrawable com.example.lakshmanan.gmapsandroid:castStopButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castButtonColor com.AN_Maps:castButtonColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castClosedCaptionsButtonDrawable com.AN_Maps:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castControlButtons com.AN_Maps:castControlButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castForward30ButtonDrawable com.AN_Maps:castForward30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castMuteToggleButtonDrawable com.AN_Maps:castMuteToggleButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castPauseButtonDrawable com.AN_Maps:castPauseButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castPlayButtonDrawable com.AN_Maps:castPlayButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castRewind30ButtonDrawable com.AN_Maps:castRewind30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSeekBarProgressDrawable com.AN_Maps:castSeekBarProgressDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSeekBarThumbDrawable com.AN_Maps:castSeekBarThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSkipNextButtonDrawable com.AN_Maps:castSkipNextButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSkipPreviousButtonDrawable com.AN_Maps:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castStopButtonDrawable com.AN_Maps:castStopButtonDrawable}</code></td><td></td></tr>
      * </table>
      * @see #CastExpandedController_castButtonColor
      * @see #CastExpandedController_castClosedCaptionsButtonDrawable
@@ -7924,7 +7924,7 @@ public final class R {
         0x7f030070
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castButtonColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castButtonColor}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7935,11 +7935,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castButtonColor
+     * @attr name com.AN_Maps:castButtonColor
      */
     public static final int CastExpandedController_castButtonColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castClosedCaptionsButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castClosedCaptionsButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7947,11 +7947,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castClosedCaptionsButtonDrawable
+     * @attr name com.AN_Maps:castClosedCaptionsButtonDrawable
      */
     public static final int CastExpandedController_castClosedCaptionsButtonDrawable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castControlButtons}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castControlButtons}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7959,11 +7959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castControlButtons
+     * @attr name com.AN_Maps:castControlButtons
      */
     public static final int CastExpandedController_castControlButtons=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castForward30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castForward30ButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7971,11 +7971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castForward30ButtonDrawable
+     * @attr name com.AN_Maps:castForward30ButtonDrawable
      */
     public static final int CastExpandedController_castForward30ButtonDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castMuteToggleButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castMuteToggleButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7983,11 +7983,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castMuteToggleButtonDrawable
+     * @attr name com.AN_Maps:castMuteToggleButtonDrawable
      */
     public static final int CastExpandedController_castMuteToggleButtonDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castPauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castPauseButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7995,11 +7995,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castPauseButtonDrawable
+     * @attr name com.AN_Maps:castPauseButtonDrawable
      */
     public static final int CastExpandedController_castPauseButtonDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castPlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castPlayButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8007,11 +8007,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castPlayButtonDrawable
+     * @attr name com.AN_Maps:castPlayButtonDrawable
      */
     public static final int CastExpandedController_castPlayButtonDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castRewind30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castRewind30ButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8019,11 +8019,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castRewind30ButtonDrawable
+     * @attr name com.AN_Maps:castRewind30ButtonDrawable
      */
     public static final int CastExpandedController_castRewind30ButtonDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSeekBarProgressDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSeekBarProgressDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8031,11 +8031,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSeekBarProgressDrawable
+     * @attr name com.AN_Maps:castSeekBarProgressDrawable
      */
     public static final int CastExpandedController_castSeekBarProgressDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSeekBarThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSeekBarThumbDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8043,11 +8043,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSeekBarThumbDrawable
+     * @attr name com.AN_Maps:castSeekBarThumbDrawable
      */
     public static final int CastExpandedController_castSeekBarThumbDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSkipNextButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSkipNextButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8055,11 +8055,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSkipNextButtonDrawable
+     * @attr name com.AN_Maps:castSkipNextButtonDrawable
      */
     public static final int CastExpandedController_castSkipNextButtonDrawable=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSkipPreviousButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSkipPreviousButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8067,11 +8067,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSkipPreviousButtonDrawable
+     * @attr name com.AN_Maps:castSkipPreviousButtonDrawable
      */
     public static final int CastExpandedController_castSkipPreviousButtonDrawable=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castStopButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8079,7 +8079,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castStopButtonDrawable
+     * @attr name com.AN_Maps:castStopButtonDrawable
      */
     public static final int CastExpandedController_castStopButtonDrawable=12;
     /**
@@ -8089,12 +8089,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor com.example.lakshmanan.gmapsandroid:castBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor com.example.lakshmanan.gmapsandroid:castButtonBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castButtonText com.example.lakshmanan.gmapsandroid:castButtonText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance com.example.lakshmanan.gmapsandroid:castButtonTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castFocusRadius com.example.lakshmanan.gmapsandroid:castFocusRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance com.example.lakshmanan.gmapsandroid:castTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor com.AN_Maps:castBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor com.AN_Maps:castButtonBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castButtonText com.AN_Maps:castButtonText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance com.AN_Maps:castButtonTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castFocusRadius com.AN_Maps:castFocusRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance com.AN_Maps:castTitleTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #CastIntroOverlay_castBackgroundColor
      * @see #CastIntroOverlay_castButtonBackgroundColor
@@ -8108,7 +8108,7 @@ public final class R {
         0x7f03005f, 0x7f030072
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castBackgroundColor}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8119,11 +8119,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castBackgroundColor
+     * @attr name com.AN_Maps:castBackgroundColor
      */
     public static final int CastIntroOverlay_castBackgroundColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castButtonBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castButtonBackgroundColor}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8134,11 +8134,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castButtonBackgroundColor
+     * @attr name com.AN_Maps:castButtonBackgroundColor
      */
     public static final int CastIntroOverlay_castButtonBackgroundColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castButtonText}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castButtonText}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8148,11 +8148,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castButtonText
+     * @attr name com.AN_Maps:castButtonText
      */
     public static final int CastIntroOverlay_castButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castButtonTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castButtonTextAppearance}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8160,11 +8160,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castButtonTextAppearance
+     * @attr name com.AN_Maps:castButtonTextAppearance
      */
     public static final int CastIntroOverlay_castButtonTextAppearance=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castFocusRadius}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castFocusRadius}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8177,11 +8177,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castFocusRadius
+     * @attr name com.AN_Maps:castFocusRadius
      */
     public static final int CastIntroOverlay_castFocusRadius=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castTitleTextAppearance}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8189,7 +8189,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castTitleTextAppearance
+     * @attr name com.AN_Maps:castTitleTextAppearance
      */
     public static final int CastIntroOverlay_castTitleTextAppearance=5;
     /**
@@ -8199,25 +8199,25 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CastMiniController_castBackground com.example.lakshmanan.gmapsandroid:castBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castButtonColor com.example.lakshmanan.gmapsandroid:castButtonColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castClosedCaptionsButtonDrawable com.example.lakshmanan.gmapsandroid:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castControlButtons com.example.lakshmanan.gmapsandroid:castControlButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castForward30ButtonDrawable com.example.lakshmanan.gmapsandroid:castForward30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castLargePauseButtonDrawable com.example.lakshmanan.gmapsandroid:castLargePauseButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castLargePlayButtonDrawable com.example.lakshmanan.gmapsandroid:castLargePlayButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castLargeStopButtonDrawable com.example.lakshmanan.gmapsandroid:castLargeStopButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castMuteToggleButtonDrawable com.example.lakshmanan.gmapsandroid:castMuteToggleButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castPauseButtonDrawable com.example.lakshmanan.gmapsandroid:castPauseButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castPlayButtonDrawable com.example.lakshmanan.gmapsandroid:castPlayButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castProgressBarColor com.example.lakshmanan.gmapsandroid:castProgressBarColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castRewind30ButtonDrawable com.example.lakshmanan.gmapsandroid:castRewind30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castShowImageThumbnail com.example.lakshmanan.gmapsandroid:castShowImageThumbnail}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castSkipNextButtonDrawable com.example.lakshmanan.gmapsandroid:castSkipNextButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castSkipPreviousButtonDrawable com.example.lakshmanan.gmapsandroid:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castStopButtonDrawable com.example.lakshmanan.gmapsandroid:castStopButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance com.example.lakshmanan.gmapsandroid:castSubtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castTitleTextAppearance com.example.lakshmanan.gmapsandroid:castTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castBackground com.AN_Maps:castBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castButtonColor com.AN_Maps:castButtonColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castClosedCaptionsButtonDrawable com.AN_Maps:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castControlButtons com.AN_Maps:castControlButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castForward30ButtonDrawable com.AN_Maps:castForward30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castLargePauseButtonDrawable com.AN_Maps:castLargePauseButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castLargePlayButtonDrawable com.AN_Maps:castLargePlayButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castLargeStopButtonDrawable com.AN_Maps:castLargeStopButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castMuteToggleButtonDrawable com.AN_Maps:castMuteToggleButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castPauseButtonDrawable com.AN_Maps:castPauseButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castPlayButtonDrawable com.AN_Maps:castPlayButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castProgressBarColor com.AN_Maps:castProgressBarColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castRewind30ButtonDrawable com.AN_Maps:castRewind30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castShowImageThumbnail com.AN_Maps:castShowImageThumbnail}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castSkipNextButtonDrawable com.AN_Maps:castSkipNextButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castSkipPreviousButtonDrawable com.AN_Maps:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castStopButtonDrawable com.AN_Maps:castStopButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance com.AN_Maps:castSubtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castTitleTextAppearance com.AN_Maps:castTitleTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #CastMiniController_castBackground
      * @see #CastMiniController_castButtonColor
@@ -8247,7 +8247,7 @@ public final class R {
         0x7f030070, 0x7f030071, 0x7f030072
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castBackground}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8258,11 +8258,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castBackground
+     * @attr name com.AN_Maps:castBackground
      */
     public static final int CastMiniController_castBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castButtonColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castButtonColor}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8273,11 +8273,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castButtonColor
+     * @attr name com.AN_Maps:castButtonColor
      */
     public static final int CastMiniController_castButtonColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castClosedCaptionsButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castClosedCaptionsButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8285,11 +8285,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castClosedCaptionsButtonDrawable
+     * @attr name com.AN_Maps:castClosedCaptionsButtonDrawable
      */
     public static final int CastMiniController_castClosedCaptionsButtonDrawable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castControlButtons}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castControlButtons}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8297,11 +8297,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castControlButtons
+     * @attr name com.AN_Maps:castControlButtons
      */
     public static final int CastMiniController_castControlButtons=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castForward30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castForward30ButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8309,11 +8309,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castForward30ButtonDrawable
+     * @attr name com.AN_Maps:castForward30ButtonDrawable
      */
     public static final int CastMiniController_castForward30ButtonDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castLargePauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castLargePauseButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8321,11 +8321,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castLargePauseButtonDrawable
+     * @attr name com.AN_Maps:castLargePauseButtonDrawable
      */
     public static final int CastMiniController_castLargePauseButtonDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castLargePlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castLargePlayButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8333,11 +8333,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castLargePlayButtonDrawable
+     * @attr name com.AN_Maps:castLargePlayButtonDrawable
      */
     public static final int CastMiniController_castLargePlayButtonDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castLargeStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castLargeStopButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8345,11 +8345,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castLargeStopButtonDrawable
+     * @attr name com.AN_Maps:castLargeStopButtonDrawable
      */
     public static final int CastMiniController_castLargeStopButtonDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castMuteToggleButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castMuteToggleButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8357,11 +8357,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castMuteToggleButtonDrawable
+     * @attr name com.AN_Maps:castMuteToggleButtonDrawable
      */
     public static final int CastMiniController_castMuteToggleButtonDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castPauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castPauseButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8369,11 +8369,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castPauseButtonDrawable
+     * @attr name com.AN_Maps:castPauseButtonDrawable
      */
     public static final int CastMiniController_castPauseButtonDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castPlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castPlayButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8381,22 +8381,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castPlayButtonDrawable
+     * @attr name com.AN_Maps:castPlayButtonDrawable
      */
     public static final int CastMiniController_castPlayButtonDrawable=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castProgressBarColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castProgressBarColor}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castProgressBarColor
+     * @attr name com.AN_Maps:castProgressBarColor
      */
     public static final int CastMiniController_castProgressBarColor=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castRewind30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castRewind30ButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8404,21 +8404,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castRewind30ButtonDrawable
+     * @attr name com.AN_Maps:castRewind30ButtonDrawable
      */
     public static final int CastMiniController_castRewind30ButtonDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castShowImageThumbnail}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castShowImageThumbnail}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castShowImageThumbnail
+     * @attr name com.AN_Maps:castShowImageThumbnail
      */
     public static final int CastMiniController_castShowImageThumbnail=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSkipNextButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSkipNextButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8426,11 +8426,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSkipNextButtonDrawable
+     * @attr name com.AN_Maps:castSkipNextButtonDrawable
      */
     public static final int CastMiniController_castSkipNextButtonDrawable=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSkipPreviousButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSkipPreviousButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8438,11 +8438,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSkipPreviousButtonDrawable
+     * @attr name com.AN_Maps:castSkipPreviousButtonDrawable
      */
     public static final int CastMiniController_castSkipPreviousButtonDrawable=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castStopButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8450,11 +8450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castStopButtonDrawable
+     * @attr name com.AN_Maps:castStopButtonDrawable
      */
     public static final int CastMiniController_castStopButtonDrawable=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castSubtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castSubtitleTextAppearance}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8462,11 +8462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castSubtitleTextAppearance
+     * @attr name com.AN_Maps:castSubtitleTextAppearance
      */
     public static final int CastMiniController_castSubtitleTextAppearance=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castTitleTextAppearance}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8474,7 +8474,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castTitleTextAppearance
+     * @attr name com.AN_Maps:castTitleTextAppearance
      */
     public static final int CastMiniController_castTitleTextAppearance=18;
     /**
@@ -8486,7 +8486,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.lakshmanan.gmapsandroid:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.AN_Maps:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -8496,12 +8496,12 @@ public final class R {
         0x010101a5, 0x0101031f, 0x7f03002b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:alpha
+     * @attr name com.AN_Maps:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -8532,8 +8532,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.lakshmanan.gmapsandroid:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.lakshmanan.gmapsandroid:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.AN_Maps:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.AN_Maps:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -8555,18 +8555,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonTint
+     * @attr name com.AN_Maps:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8582,7 +8582,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonTintMode
+     * @attr name com.AN_Maps:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -8597,50 +8597,50 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.example.lakshmanan.gmapsandroid:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.lakshmanan.gmapsandroid:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.lakshmanan.gmapsandroid:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.lakshmanan.gmapsandroid:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.lakshmanan.gmapsandroid:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.lakshmanan.gmapsandroid:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.example.lakshmanan.gmapsandroid:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.example.lakshmanan.gmapsandroid:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.example.lakshmanan.gmapsandroid:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.lakshmanan.gmapsandroid:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.lakshmanan.gmapsandroid:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.lakshmanan.gmapsandroid:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.lakshmanan.gmapsandroid:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.lakshmanan.gmapsandroid:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.lakshmanan.gmapsandroid:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.lakshmanan.gmapsandroid:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.lakshmanan.gmapsandroid:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.lakshmanan.gmapsandroid:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.lakshmanan.gmapsandroid:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.example.lakshmanan.gmapsandroid:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.example.lakshmanan.gmapsandroid:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.example.lakshmanan.gmapsandroid:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.example.lakshmanan.gmapsandroid:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.example.lakshmanan.gmapsandroid:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.lakshmanan.gmapsandroid:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.lakshmanan.gmapsandroid:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.example.lakshmanan.gmapsandroid:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.example.lakshmanan.gmapsandroid:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.example.lakshmanan.gmapsandroid:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.example.lakshmanan.gmapsandroid:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.example.lakshmanan.gmapsandroid:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.example.lakshmanan.gmapsandroid:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.example.lakshmanan.gmapsandroid:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.AN_Maps:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.AN_Maps:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.AN_Maps:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.AN_Maps:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.AN_Maps:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.AN_Maps:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.AN_Maps:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.AN_Maps:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.AN_Maps:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.AN_Maps:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.AN_Maps:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.AN_Maps:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.AN_Maps:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.AN_Maps:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.AN_Maps:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.AN_Maps:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.AN_Maps:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.AN_Maps:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.AN_Maps:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.AN_Maps:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.AN_Maps:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.AN_Maps:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.AN_Maps:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.AN_Maps:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.AN_Maps:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.AN_Maps:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.AN_Maps:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.AN_Maps:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.AN_Maps:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.AN_Maps:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.AN_Maps:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.AN_Maps:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.AN_Maps:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.AN_Maps:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.AN_Maps:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.AN_Maps:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.AN_Maps:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.AN_Maps:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.AN_Maps:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.AN_Maps:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.AN_Maps:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.AN_Maps:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.AN_Maps:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.AN_Maps:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -8777,7 +8777,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_orientation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8785,20 +8785,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:constraintSet
+     * @attr name com.AN_Maps:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_creator
+     * @attr name com.AN_Maps:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8814,20 +8814,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_toBaselineOf
+     * @attr name com.AN_Maps:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBottom_creator
+     * @attr name com.AN_Maps:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8843,11 +8843,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toBottomOf
+     * @attr name com.AN_Maps:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8863,21 +8863,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toTopOf
+     * @attr name com.AN_Maps:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintDimensionRatio
+     * @attr name com.AN_Maps:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8893,11 +8893,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toEndOf
+     * @attr name com.AN_Maps:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8913,11 +8913,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toStartOf
+     * @attr name com.AN_Maps:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8926,11 +8926,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintGuide_begin
+     * @attr name com.AN_Maps:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8939,20 +8939,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintGuide_end
+     * @attr name com.AN_Maps:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintGuide_percent
+     * @attr name com.AN_Maps:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8965,11 +8965,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHeight_default
+     * @attr name com.AN_Maps:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8978,11 +8978,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHeight_max
+     * @attr name com.AN_Maps:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8991,20 +8991,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHeight_min
+     * @attr name com.AN_Maps:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_bias
+     * @attr name com.AN_Maps:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9018,29 +9018,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_chainStyle
+     * @attr name com.AN_Maps:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_weight
+     * @attr name com.AN_Maps:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintLeft_creator
+     * @attr name com.AN_Maps:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9056,11 +9056,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toLeftOf
+     * @attr name com.AN_Maps:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9076,20 +9076,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toRightOf
+     * @attr name com.AN_Maps:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintRight_creator
+     * @attr name com.AN_Maps:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9105,11 +9105,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintRight_toLeftOf
+     * @attr name com.AN_Maps:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9125,11 +9125,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintRight_toRightOf
+     * @attr name com.AN_Maps:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9145,11 +9145,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintStart_toEndOf
+     * @attr name com.AN_Maps:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9165,20 +9165,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintStart_toStartOf
+     * @attr name com.AN_Maps:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintTop_creator
+     * @attr name com.AN_Maps:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9194,11 +9194,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintTop_toBottomOf
+     * @attr name com.AN_Maps:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9214,20 +9214,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintTop_toTopOf
+     * @attr name com.AN_Maps:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintVertical_bias
+     * @attr name com.AN_Maps:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9241,20 +9241,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintVertical_chainStyle
+     * @attr name com.AN_Maps:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintVertical_weight
+     * @attr name com.AN_Maps:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9267,11 +9267,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintWidth_default
+     * @attr name com.AN_Maps:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9280,11 +9280,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintWidth_max
+     * @attr name com.AN_Maps:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9293,11 +9293,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintWidth_min
+     * @attr name com.AN_Maps:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9306,11 +9306,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_editor_absoluteX
+     * @attr name com.AN_Maps:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9319,11 +9319,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_editor_absoluteY
+     * @attr name com.AN_Maps:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9332,11 +9332,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginBottom
+     * @attr name com.AN_Maps:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9345,11 +9345,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginEnd
+     * @attr name com.AN_Maps:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9358,11 +9358,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginLeft
+     * @attr name com.AN_Maps:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9371,11 +9371,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginRight
+     * @attr name com.AN_Maps:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9384,11 +9384,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginStart
+     * @attr name com.AN_Maps:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9397,11 +9397,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginTop
+     * @attr name com.AN_Maps:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9416,7 +9416,7 @@ public final class R {
      * <tr><td>none</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_optimizationLevel
+     * @attr name com.AN_Maps:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
     /**
@@ -9448,48 +9448,48 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.example.lakshmanan.gmapsandroid:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.example.lakshmanan.gmapsandroid:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.example.lakshmanan.gmapsandroid:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.example.lakshmanan.gmapsandroid:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.example.lakshmanan.gmapsandroid:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.example.lakshmanan.gmapsandroid:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.example.lakshmanan.gmapsandroid:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.example.lakshmanan.gmapsandroid:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.example.lakshmanan.gmapsandroid:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.example.lakshmanan.gmapsandroid:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.example.lakshmanan.gmapsandroid:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.example.lakshmanan.gmapsandroid:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.example.lakshmanan.gmapsandroid:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.example.lakshmanan.gmapsandroid:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.example.lakshmanan.gmapsandroid:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.example.lakshmanan.gmapsandroid:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.example.lakshmanan.gmapsandroid:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.example.lakshmanan.gmapsandroid:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.example.lakshmanan.gmapsandroid:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.example.lakshmanan.gmapsandroid:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.example.lakshmanan.gmapsandroid:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.example.lakshmanan.gmapsandroid:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.example.lakshmanan.gmapsandroid:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.example.lakshmanan.gmapsandroid:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.example.lakshmanan.gmapsandroid:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.example.lakshmanan.gmapsandroid:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.example.lakshmanan.gmapsandroid:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.example.lakshmanan.gmapsandroid:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.example.lakshmanan.gmapsandroid:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.example.lakshmanan.gmapsandroid:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.example.lakshmanan.gmapsandroid:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.AN_Maps:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.AN_Maps:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.AN_Maps:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.AN_Maps:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.AN_Maps:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.AN_Maps:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.AN_Maps:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.AN_Maps:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.AN_Maps:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.AN_Maps:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.AN_Maps:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.AN_Maps:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.AN_Maps:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.AN_Maps:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.AN_Maps:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.AN_Maps:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.AN_Maps:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.AN_Maps:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.AN_Maps:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.AN_Maps:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.AN_Maps:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.AN_Maps:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.AN_Maps:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.AN_Maps:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.AN_Maps:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.AN_Maps:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.AN_Maps:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.AN_Maps:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.AN_Maps:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.AN_Maps:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.AN_Maps:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.AN_Maps:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.AN_Maps:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.AN_Maps:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.AN_Maps:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.AN_Maps:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.AN_Maps:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.AN_Maps:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.AN_Maps:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.AN_Maps:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.AN_Maps:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.AN_Maps:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -9869,16 +9869,16 @@ public final class R {
      */
     public static final int ConstraintSet_android_visibility=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_creator
+     * @attr name com.AN_Maps:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9894,20 +9894,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBaseline_toBaselineOf
+     * @attr name com.AN_Maps:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBottom_creator
+     * @attr name com.AN_Maps:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9923,11 +9923,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toBottomOf
+     * @attr name com.AN_Maps:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9943,21 +9943,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintBottom_toTopOf
+     * @attr name com.AN_Maps:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintDimensionRatio
+     * @attr name com.AN_Maps:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9973,11 +9973,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toEndOf
+     * @attr name com.AN_Maps:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9993,11 +9993,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintEnd_toStartOf
+     * @attr name com.AN_Maps:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10006,11 +10006,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintGuide_begin
+     * @attr name com.AN_Maps:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10019,20 +10019,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintGuide_end
+     * @attr name com.AN_Maps:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintGuide_percent
+     * @attr name com.AN_Maps:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10045,11 +10045,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHeight_default
+     * @attr name com.AN_Maps:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10058,11 +10058,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHeight_max
+     * @attr name com.AN_Maps:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10071,20 +10071,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHeight_min
+     * @attr name com.AN_Maps:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_bias
+     * @attr name com.AN_Maps:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10098,29 +10098,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_chainStyle
+     * @attr name com.AN_Maps:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintHorizontal_weight
+     * @attr name com.AN_Maps:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintLeft_creator
+     * @attr name com.AN_Maps:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10136,11 +10136,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toLeftOf
+     * @attr name com.AN_Maps:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10156,20 +10156,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintLeft_toRightOf
+     * @attr name com.AN_Maps:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintRight_creator
+     * @attr name com.AN_Maps:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10185,11 +10185,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintRight_toLeftOf
+     * @attr name com.AN_Maps:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10205,11 +10205,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintRight_toRightOf
+     * @attr name com.AN_Maps:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10225,11 +10225,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintStart_toEndOf
+     * @attr name com.AN_Maps:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10245,20 +10245,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintStart_toStartOf
+     * @attr name com.AN_Maps:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintTop_creator
+     * @attr name com.AN_Maps:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10274,11 +10274,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintTop_toBottomOf
+     * @attr name com.AN_Maps:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10294,20 +10294,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintTop_toTopOf
+     * @attr name com.AN_Maps:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintVertical_bias
+     * @attr name com.AN_Maps:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10321,20 +10321,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintVertical_chainStyle
+     * @attr name com.AN_Maps:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintVertical_weight
+     * @attr name com.AN_Maps:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10347,11 +10347,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintWidth_default
+     * @attr name com.AN_Maps:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10360,11 +10360,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintWidth_max
+     * @attr name com.AN_Maps:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10373,11 +10373,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_constraintWidth_min
+     * @attr name com.AN_Maps:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10386,11 +10386,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_editor_absoluteX
+     * @attr name com.AN_Maps:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10399,11 +10399,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_editor_absoluteY
+     * @attr name com.AN_Maps:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10412,11 +10412,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginBottom
+     * @attr name com.AN_Maps:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10425,11 +10425,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginEnd
+     * @attr name com.AN_Maps:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10438,11 +10438,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginLeft
+     * @attr name com.AN_Maps:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10451,11 +10451,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginRight
+     * @attr name com.AN_Maps:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10464,11 +10464,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginStart
+     * @attr name com.AN_Maps:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10477,7 +10477,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout_goneMarginTop
+     * @attr name com.AN_Maps:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=63;
     /**
@@ -10487,14 +10487,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Corpus_contentProviderUri com.example.lakshmanan.gmapsandroid:contentProviderUri}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_corpusId com.example.lakshmanan.gmapsandroid:corpusId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_corpusVersion com.example.lakshmanan.gmapsandroid:corpusVersion}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_documentMaxAgeSecs com.example.lakshmanan.gmapsandroid:documentMaxAgeSecs}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_perAccountTemplate com.example.lakshmanan.gmapsandroid:perAccountTemplate}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_schemaOrgType com.example.lakshmanan.gmapsandroid:schemaOrgType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_semanticallySearchable com.example.lakshmanan.gmapsandroid:semanticallySearchable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_trimmable com.example.lakshmanan.gmapsandroid:trimmable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_contentProviderUri com.AN_Maps:contentProviderUri}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_corpusId com.AN_Maps:corpusId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_corpusVersion com.AN_Maps:corpusVersion}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_documentMaxAgeSecs com.AN_Maps:documentMaxAgeSecs}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_perAccountTemplate com.AN_Maps:perAccountTemplate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_schemaOrgType com.AN_Maps:schemaOrgType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_semanticallySearchable com.AN_Maps:semanticallySearchable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_trimmable com.AN_Maps:trimmable}</code></td><td></td></tr>
      * </table>
      * @see #Corpus_contentProviderUri
      * @see #Corpus_corpusId
@@ -10510,82 +10510,82 @@ public final class R {
         0x7f03012e, 0x7f03013c, 0x7f03014b, 0x7f03018e
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentProviderUri}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentProviderUri}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentProviderUri
+     * @attr name com.AN_Maps:contentProviderUri
      */
     public static final int Corpus_contentProviderUri=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#corpusId}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#corpusId}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:corpusId
+     * @attr name com.AN_Maps:corpusId
      */
     public static final int Corpus_corpusId=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#corpusVersion}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#corpusVersion}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:corpusVersion
+     * @attr name com.AN_Maps:corpusVersion
      */
     public static final int Corpus_corpusVersion=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#documentMaxAgeSecs}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#documentMaxAgeSecs}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:documentMaxAgeSecs
+     * @attr name com.AN_Maps:documentMaxAgeSecs
      */
     public static final int Corpus_documentMaxAgeSecs=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#perAccountTemplate}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#perAccountTemplate}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:perAccountTemplate
+     * @attr name com.AN_Maps:perAccountTemplate
      */
     public static final int Corpus_perAccountTemplate=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#schemaOrgType}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#schemaOrgType}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:schemaOrgType
+     * @attr name com.AN_Maps:schemaOrgType
      */
     public static final int Corpus_schemaOrgType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#semanticallySearchable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#semanticallySearchable}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:semanticallySearchable
+     * @attr name com.AN_Maps:semanticallySearchable
      */
     public static final int Corpus_semanticallySearchable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#trimmable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#trimmable}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:trimmable
+     * @attr name com.AN_Maps:trimmable
      */
     public static final int Corpus_trimmable=7;
     /**
@@ -10595,9 +10595,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CustomCastTheme_castExpandedControllerStyle com.example.lakshmanan.gmapsandroid:castExpandedControllerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle com.example.lakshmanan.gmapsandroid:castIntroOverlayStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle com.example.lakshmanan.gmapsandroid:castMiniControllerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomCastTheme_castExpandedControllerStyle com.AN_Maps:castExpandedControllerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle com.AN_Maps:castIntroOverlayStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle com.AN_Maps:castMiniControllerStyle}</code></td><td></td></tr>
      * </table>
      * @see #CustomCastTheme_castExpandedControllerStyle
      * @see #CustomCastTheme_castIntroOverlayStyle
@@ -10607,7 +10607,7 @@ public final class R {
         0x7f03005d, 0x7f030061, 0x7f030065
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castExpandedControllerStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castExpandedControllerStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10615,11 +10615,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castExpandedControllerStyle
+     * @attr name com.AN_Maps:castExpandedControllerStyle
      */
     public static final int CustomCastTheme_castExpandedControllerStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castIntroOverlayStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castIntroOverlayStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10627,11 +10627,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castIntroOverlayStyle
+     * @attr name com.AN_Maps:castIntroOverlayStyle
      */
     public static final int CustomCastTheme_castIntroOverlayStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#castMiniControllerStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#castMiniControllerStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10639,7 +10639,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:castMiniControllerStyle
+     * @attr name com.AN_Maps:castMiniControllerStyle
      */
     public static final int CustomCastTheme_castMiniControllerStyle=2;
     /**
@@ -10649,8 +10649,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle com.example.lakshmanan.gmapsandroid:toolbarTextColorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.example.lakshmanan.gmapsandroid:windowTransitionStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle com.AN_Maps:toolbarTextColorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.AN_Maps:windowTransitionStyle}</code></td><td></td></tr>
      * </table>
      * @see #CustomWalletTheme_toolbarTextColorStyle
      * @see #CustomWalletTheme_windowTransitionStyle
@@ -10659,7 +10659,7 @@ public final class R {
         0x7f030187, 0x7f0301a5
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#toolbarTextColorStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#toolbarTextColorStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10672,11 +10672,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:toolbarTextColorStyle
+     * @attr name com.AN_Maps:toolbarTextColorStyle
      */
     public static final int CustomWalletTheme_toolbarTextColorStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#windowTransitionStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#windowTransitionStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10689,7 +10689,7 @@ public final class R {
      * <tr><td>slide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:windowTransitionStyle
+     * @attr name com.AN_Maps:windowTransitionStyle
      */
     public static final int CustomWalletTheme_windowTransitionStyle=1;
     /**
@@ -10699,14 +10699,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.lakshmanan.gmapsandroid:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.lakshmanan.gmapsandroid:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.lakshmanan.gmapsandroid:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.lakshmanan.gmapsandroid:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.lakshmanan.gmapsandroid:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.lakshmanan.gmapsandroid:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.lakshmanan.gmapsandroid:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.lakshmanan.gmapsandroid:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.AN_Maps:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.AN_Maps:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.AN_Maps:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.AN_Maps:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.AN_Maps:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.AN_Maps:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.AN_Maps:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.AN_Maps:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -10722,7 +10722,7 @@ public final class R {
         0x7f0300a0, 0x7f0300b8, 0x7f030153, 0x7f030171
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10731,11 +10731,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:arrowHeadLength
+     * @attr name com.AN_Maps:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10744,11 +10744,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:arrowShaftLength
+     * @attr name com.AN_Maps:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10757,22 +10757,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:barLength
+     * @attr name com.AN_Maps:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:color
+     * @attr name com.AN_Maps:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10781,11 +10781,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:drawableSize
+     * @attr name com.AN_Maps:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10794,21 +10794,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:gapBetweenBars
+     * @attr name com.AN_Maps:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:spinBars
+     * @attr name com.AN_Maps:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10817,7 +10817,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:thickness
+     * @attr name com.AN_Maps:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -10827,8 +10827,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FeatureParam_paramName com.example.lakshmanan.gmapsandroid:paramName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FeatureParam_paramValue com.example.lakshmanan.gmapsandroid:paramValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FeatureParam_paramName com.AN_Maps:paramName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FeatureParam_paramValue com.AN_Maps:paramValue}</code></td><td></td></tr>
      * </table>
      * @see #FeatureParam_paramName
      * @see #FeatureParam_paramValue
@@ -10837,23 +10837,23 @@ public final class R {
         0x7f03012c, 0x7f03012d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#paramName}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#paramName}
      * attribute's value can be found in the {@link #FeatureParam} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:paramName
+     * @attr name com.AN_Maps:paramName
      */
     public static final int FeatureParam_paramName=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#paramValue}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#paramValue}
      * attribute's value can be found in the {@link #FeatureParam} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:paramValue
+     * @attr name com.AN_Maps:paramValue
      */
     public static final int FeatureParam_paramValue=1;
     /**
@@ -10863,12 +10863,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.lakshmanan.gmapsandroid:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.lakshmanan.gmapsandroid:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.lakshmanan.gmapsandroid:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.lakshmanan.gmapsandroid:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.lakshmanan.gmapsandroid:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.lakshmanan.gmapsandroid:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.AN_Maps:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.AN_Maps:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.AN_Maps:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.AN_Maps:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.AN_Maps:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.AN_Maps:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -10888,9 +10888,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.example.lakshmanan.gmapsandroid:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.lakshmanan.gmapsandroid:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.lakshmanan.gmapsandroid:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.AN_Maps:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.AN_Maps:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.AN_Maps:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
@@ -10900,7 +10900,7 @@ public final class R {
         0x7f0300ac, 0x7f0300b4, 0x7f0300b5
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10908,11 +10908,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:font
+     * @attr name com.AN_Maps:font
      */
     public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10925,30 +10925,30 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontStyle
+     * @attr name com.AN_Maps:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontWeight
+     * @attr name com.AN_Maps:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontProviderAuthority
+     * @attr name com.AN_Maps:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10956,11 +10956,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontProviderCerts
+     * @attr name com.AN_Maps:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10973,11 +10973,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontProviderFetchStrategy
+     * @attr name com.AN_Maps:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10990,27 +10990,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontProviderFetchTimeout
+     * @attr name com.AN_Maps:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontProviderPackage
+     * @attr name com.AN_Maps:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontProviderQuery
+     * @attr name com.AN_Maps:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -11020,12 +11020,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GlobalSearch_defaultIntentAction com.example.lakshmanan.gmapsandroid:defaultIntentAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_defaultIntentActivity com.example.lakshmanan.gmapsandroid:defaultIntentActivity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_defaultIntentData com.example.lakshmanan.gmapsandroid:defaultIntentData}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_searchEnabled com.example.lakshmanan.gmapsandroid:searchEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_searchLabel com.example.lakshmanan.gmapsandroid:searchLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_settingsDescription com.example.lakshmanan.gmapsandroid:settingsDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_defaultIntentAction com.AN_Maps:defaultIntentAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_defaultIntentActivity com.AN_Maps:defaultIntentActivity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_defaultIntentData com.AN_Maps:defaultIntentData}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_searchEnabled com.AN_Maps:searchEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_searchLabel com.AN_Maps:searchLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_settingsDescription com.AN_Maps:settingsDescription}</code></td><td></td></tr>
      * </table>
      * @see #GlobalSearch_defaultIntentAction
      * @see #GlobalSearch_defaultIntentActivity
@@ -11045,7 +11045,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts com.example.lakshmanan.gmapsandroid:allowShortcuts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts com.AN_Maps:allowShortcuts}</code></td><td></td></tr>
      * </table>
      * @see #GlobalSearchCorpus_allowShortcuts
      */
@@ -11053,13 +11053,13 @@ public final class R {
         0x7f030029
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#allowShortcuts}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#allowShortcuts}
      * attribute's value can be found in the {@link #GlobalSearchCorpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:allowShortcuts
+     * @attr name com.AN_Maps:allowShortcuts
      */
     public static final int GlobalSearchCorpus_allowShortcuts=0;
     /**
@@ -11069,8 +11069,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GlobalSearchSection_sectionContent com.example.lakshmanan.gmapsandroid:sectionContent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearchSection_sectionType com.example.lakshmanan.gmapsandroid:sectionType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearchSection_sectionContent com.AN_Maps:sectionContent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearchSection_sectionType com.AN_Maps:sectionType}</code></td><td></td></tr>
      * </table>
      * @see #GlobalSearchSection_sectionContent
      * @see #GlobalSearchSection_sectionType
@@ -11079,17 +11079,17 @@ public final class R {
         0x7f030143, 0x7f030146
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#sectionContent}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#sectionContent}
      * attribute's value can be found in the {@link #GlobalSearchSection} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:sectionContent
+     * @attr name com.AN_Maps:sectionContent
      */
     public static final int GlobalSearchSection_sectionContent=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#sectionType}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#sectionType}
      * attribute's value can be found in the {@link #GlobalSearchSection} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11110,67 +11110,67 @@ public final class R {
      * <tr><td>thing_proto</td><td>9</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:sectionType
+     * @attr name com.AN_Maps:sectionType
      */
     public static final int GlobalSearchSection_sectionType=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#defaultIntentAction}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#defaultIntentAction}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:defaultIntentAction
+     * @attr name com.AN_Maps:defaultIntentAction
      */
     public static final int GlobalSearch_defaultIntentAction=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#defaultIntentActivity}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#defaultIntentActivity}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:defaultIntentActivity
+     * @attr name com.AN_Maps:defaultIntentActivity
      */
     public static final int GlobalSearch_defaultIntentActivity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#defaultIntentData}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#defaultIntentData}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:defaultIntentData
+     * @attr name com.AN_Maps:defaultIntentData
      */
     public static final int GlobalSearch_defaultIntentData=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#searchEnabled}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#searchEnabled}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:searchEnabled
+     * @attr name com.AN_Maps:searchEnabled
      */
     public static final int GlobalSearch_searchEnabled=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#searchLabel}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#searchLabel}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:searchLabel
+     * @attr name com.AN_Maps:searchLabel
      */
     public static final int GlobalSearch_searchLabel=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#settingsDescription}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#settingsDescription}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:settingsDescription
+     * @attr name com.AN_Maps:settingsDescription
      */
     public static final int GlobalSearch_settingsDescription=5;
     /**
@@ -11180,12 +11180,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #IMECorpus_inputEnabled com.example.lakshmanan.gmapsandroid:inputEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_sourceClass com.example.lakshmanan.gmapsandroid:sourceClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_toAddressesSection com.example.lakshmanan.gmapsandroid:toAddressesSection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_userInputSection com.example.lakshmanan.gmapsandroid:userInputSection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_userInputTag com.example.lakshmanan.gmapsandroid:userInputTag}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_userInputValue com.example.lakshmanan.gmapsandroid:userInputValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_inputEnabled com.AN_Maps:inputEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_sourceClass com.AN_Maps:sourceClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_toAddressesSection com.AN_Maps:toAddressesSection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_userInputSection com.AN_Maps:userInputSection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_userInputTag com.AN_Maps:userInputTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_userInputValue com.AN_Maps:userInputValue}</code></td><td></td></tr>
      * </table>
      * @see #IMECorpus_inputEnabled
      * @see #IMECorpus_sourceClass
@@ -11199,17 +11199,17 @@ public final class R {
         0x7f030198, 0x7f030199
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#inputEnabled}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#inputEnabled}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:inputEnabled
+     * @attr name com.AN_Maps:inputEnabled
      */
     public static final int IMECorpus_inputEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#sourceClass}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#sourceClass}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11223,47 +11223,47 @@ public final class R {
      * <tr><td>instant_message</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:sourceClass
+     * @attr name com.AN_Maps:sourceClass
      */
     public static final int IMECorpus_sourceClass=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#toAddressesSection}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#toAddressesSection}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:toAddressesSection
+     * @attr name com.AN_Maps:toAddressesSection
      */
     public static final int IMECorpus_toAddressesSection=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#userInputSection}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#userInputSection}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:userInputSection
+     * @attr name com.AN_Maps:userInputSection
      */
     public static final int IMECorpus_userInputSection=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#userInputTag}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#userInputTag}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:userInputTag
+     * @attr name com.AN_Maps:userInputTag
      */
     public static final int IMECorpus_userInputTag=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#userInputValue}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#userInputValue}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:userInputValue
+     * @attr name com.AN_Maps:userInputValue
      */
     public static final int IMECorpus_userInputValue=5;
     /**
@@ -11309,10 +11309,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.lakshmanan.gmapsandroid:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.lakshmanan.gmapsandroid:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.lakshmanan.gmapsandroid:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.lakshmanan.gmapsandroid:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.AN_Maps:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.AN_Maps:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.AN_Maps:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.AN_Maps:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -11508,7 +11508,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11516,11 +11516,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:divider
+     * @attr name com.AN_Maps:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11529,21 +11529,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:dividerPadding
+     * @attr name com.AN_Maps:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:measureWithLargestChild
+     * @attr name com.AN_Maps:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11558,7 +11558,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:showDividers
+     * @attr name com.AN_Maps:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -11610,9 +11610,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.example.lakshmanan.gmapsandroid:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.lakshmanan.gmapsandroid:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.lakshmanan.gmapsandroid:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop com.AN_Maps:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.AN_Maps:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.AN_Maps:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -11622,26 +11622,26 @@ public final class R {
         0x7f030075, 0x7f0300c2, 0x7f0300c3
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:circleCrop
+     * @attr name com.AN_Maps:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:imageAspectRatio
+     * @attr name com.AN_Maps:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11655,7 +11655,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:imageAspectRatioAdjust
+     * @attr name com.AN_Maps:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -11665,29 +11665,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MapAttrs_ambientEnabled com.example.lakshmanan.gmapsandroid:ambientEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraBearing com.example.lakshmanan.gmapsandroid:cameraBearing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.example.lakshmanan.gmapsandroid:cameraMaxZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.example.lakshmanan.gmapsandroid:cameraMinZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLat com.example.lakshmanan.gmapsandroid:cameraTargetLat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLng com.example.lakshmanan.gmapsandroid:cameraTargetLng}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTilt com.example.lakshmanan.gmapsandroid:cameraTilt}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraZoom com.example.lakshmanan.gmapsandroid:cameraZoom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.example.lakshmanan.gmapsandroid:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.example.lakshmanan.gmapsandroid:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.example.lakshmanan.gmapsandroid:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.example.lakshmanan.gmapsandroid:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_liteMode com.example.lakshmanan.gmapsandroid:liteMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_mapType com.example.lakshmanan.gmapsandroid:mapType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiCompass com.example.lakshmanan.gmapsandroid:uiCompass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.example.lakshmanan.gmapsandroid:uiMapToolbar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.example.lakshmanan.gmapsandroid:uiRotateGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.example.lakshmanan.gmapsandroid:uiScrollGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.example.lakshmanan.gmapsandroid:uiTiltGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomControls com.example.lakshmanan.gmapsandroid:uiZoomControls}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.example.lakshmanan.gmapsandroid:uiZoomGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_useViewLifecycle com.example.lakshmanan.gmapsandroid:useViewLifecycle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_zOrderOnTop com.example.lakshmanan.gmapsandroid:zOrderOnTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_ambientEnabled com.AN_Maps:ambientEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraBearing com.AN_Maps:cameraBearing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.AN_Maps:cameraMaxZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.AN_Maps:cameraMinZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLat com.AN_Maps:cameraTargetLat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLng com.AN_Maps:cameraTargetLng}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTilt com.AN_Maps:cameraTilt}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraZoom com.AN_Maps:cameraZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.AN_Maps:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.AN_Maps:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.AN_Maps:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.AN_Maps:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_liteMode com.AN_Maps:liteMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_mapType com.AN_Maps:mapType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiCompass com.AN_Maps:uiCompass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.AN_Maps:uiMapToolbar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.AN_Maps:uiRotateGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.AN_Maps:uiScrollGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.AN_Maps:uiTiltGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomControls com.AN_Maps:uiZoomControls}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.AN_Maps:uiZoomGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_useViewLifecycle com.AN_Maps:useViewLifecycle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_zOrderOnTop com.AN_Maps:zOrderOnTop}</code></td><td></td></tr>
      * </table>
      * @see #MapAttrs_ambientEnabled
      * @see #MapAttrs_cameraBearing
@@ -11722,126 +11722,126 @@ public final class R {
         0x7f030195, 0x7f030196, 0x7f0301a6
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#ambientEnabled}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#ambientEnabled}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:ambientEnabled
+     * @attr name com.AN_Maps:ambientEnabled
      */
     public static final int MapAttrs_ambientEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraBearing}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraBearing}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraBearing
+     * @attr name com.AN_Maps:cameraBearing
      */
     public static final int MapAttrs_cameraBearing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraMaxZoomPreference}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraMaxZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraMaxZoomPreference
+     * @attr name com.AN_Maps:cameraMaxZoomPreference
      */
     public static final int MapAttrs_cameraMaxZoomPreference=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraMinZoomPreference}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraMinZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraMinZoomPreference
+     * @attr name com.AN_Maps:cameraMinZoomPreference
      */
     public static final int MapAttrs_cameraMinZoomPreference=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraTargetLat}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraTargetLat}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraTargetLat
+     * @attr name com.AN_Maps:cameraTargetLat
      */
     public static final int MapAttrs_cameraTargetLat=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraTargetLng}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraTargetLng}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraTargetLng
+     * @attr name com.AN_Maps:cameraTargetLng
      */
     public static final int MapAttrs_cameraTargetLng=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraTilt}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraTilt}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraTilt
+     * @attr name com.AN_Maps:cameraTilt
      */
     public static final int MapAttrs_cameraTilt=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#cameraZoom}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#cameraZoom}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:cameraZoom
+     * @attr name com.AN_Maps:cameraZoom
      */
     public static final int MapAttrs_cameraZoom=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#latLngBoundsNorthEastLatitude}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#latLngBoundsNorthEastLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:latLngBoundsNorthEastLatitude
+     * @attr name com.AN_Maps:latLngBoundsNorthEastLatitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLatitude=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#latLngBoundsNorthEastLongitude}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#latLngBoundsNorthEastLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:latLngBoundsNorthEastLongitude
+     * @attr name com.AN_Maps:latLngBoundsNorthEastLongitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLongitude=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#latLngBoundsSouthWestLatitude}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#latLngBoundsSouthWestLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:latLngBoundsSouthWestLatitude
+     * @attr name com.AN_Maps:latLngBoundsSouthWestLatitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLatitude=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#latLngBoundsSouthWestLongitude}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#latLngBoundsSouthWestLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:latLngBoundsSouthWestLongitude
+     * @attr name com.AN_Maps:latLngBoundsSouthWestLongitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLongitude=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#liteMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#liteMode}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:liteMode
+     * @attr name com.AN_Maps:liteMode
      */
     public static final int MapAttrs_liteMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#mapType}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#mapType}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11857,97 +11857,97 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:mapType
+     * @attr name com.AN_Maps:mapType
      */
     public static final int MapAttrs_mapType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiCompass}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiCompass}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiCompass
+     * @attr name com.AN_Maps:uiCompass
      */
     public static final int MapAttrs_uiCompass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiMapToolbar}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiMapToolbar}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiMapToolbar
+     * @attr name com.AN_Maps:uiMapToolbar
      */
     public static final int MapAttrs_uiMapToolbar=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiRotateGestures}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiRotateGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiRotateGestures
+     * @attr name com.AN_Maps:uiRotateGestures
      */
     public static final int MapAttrs_uiRotateGestures=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiScrollGestures}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiScrollGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiScrollGestures
+     * @attr name com.AN_Maps:uiScrollGestures
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiTiltGestures}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiTiltGestures
+     * @attr name com.AN_Maps:uiTiltGestures
      */
     public static final int MapAttrs_uiTiltGestures=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiZoomControls}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiZoomControls
+     * @attr name com.AN_Maps:uiZoomControls
      */
     public static final int MapAttrs_uiZoomControls=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#uiZoomGestures}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:uiZoomGestures
+     * @attr name com.AN_Maps:uiZoomGestures
      */
     public static final int MapAttrs_uiZoomGestures=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#useViewLifecycle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:useViewLifecycle
+     * @attr name com.AN_Maps:useViewLifecycle
      */
     public static final int MapAttrs_useViewLifecycle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#zOrderOnTop}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:zOrderOnTop
+     * @attr name com.AN_Maps:zOrderOnTop
      */
     public static final int MapAttrs_zOrderOnTop=22;
     /**
@@ -11959,8 +11959,8 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MediaRouteButton_buttonTint com.example.lakshmanan.gmapsandroid:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.example.lakshmanan.gmapsandroid:externalRouteEnabledDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MediaRouteButton_buttonTint com.AN_Maps:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.AN_Maps:externalRouteEnabledDrawable}</code></td><td></td></tr>
      * </table>
      * @see #MediaRouteButton_android_minWidth
      * @see #MediaRouteButton_android_minHeight
@@ -11997,18 +11997,18 @@ public final class R {
      */
     public static final int MediaRouteButton_android_minWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonTint}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonTint
+     * @attr name com.AN_Maps:buttonTint
      */
     public static final int MediaRouteButton_buttonTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#externalRouteEnabledDrawable}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#externalRouteEnabledDrawable}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12016,7 +12016,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:externalRouteEnabledDrawable
+     * @attr name com.AN_Maps:externalRouteEnabledDrawable
      */
     public static final int MediaRouteButton_externalRouteEnabledDrawable=3;
     /**
@@ -12142,16 +12142,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.lakshmanan.gmapsandroid:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.lakshmanan.gmapsandroid:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.lakshmanan.gmapsandroid:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.example.lakshmanan.gmapsandroid:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.example.lakshmanan.gmapsandroid:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.example.lakshmanan.gmapsandroid:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.example.lakshmanan.gmapsandroid:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.example.lakshmanan.gmapsandroid:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.lakshmanan.gmapsandroid:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.example.lakshmanan.gmapsandroid:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.AN_Maps:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.AN_Maps:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.AN_Maps:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.AN_Maps:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.AN_Maps:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.AN_Maps:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.AN_Maps:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.AN_Maps:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.AN_Maps:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.AN_Maps:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -12186,7 +12186,7 @@ public final class R {
         0x7f030123, 0x7f03014d, 0x7f03018a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12194,31 +12194,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionLayout
+     * @attr name com.AN_Maps:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionProviderClass
+     * @attr name com.AN_Maps:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:actionViewClass
+     * @attr name com.AN_Maps:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12235,7 +12235,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:alphabeticModifiers
+     * @attr name com.AN_Maps:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -12381,28 +12381,28 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentDescription
+     * @attr name com.AN_Maps:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:iconTint
+     * @attr name com.AN_Maps:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12419,11 +12419,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:iconTintMode
+     * @attr name com.AN_Maps:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12440,11 +12440,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:numericModifiers
+     * @attr name com.AN_Maps:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12460,17 +12460,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:showAsAction
+     * @attr name com.AN_Maps:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:tooltipText
+     * @attr name com.AN_Maps:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -12487,8 +12487,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.lakshmanan.gmapsandroid:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.lakshmanan.gmapsandroid:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.AN_Maps:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.AN_Maps:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -12593,17 +12593,17 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:preserveIconSpacing
+     * @attr name com.AN_Maps:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12611,7 +12611,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subMenuArrow
+     * @attr name com.AN_Maps:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -12623,7 +12623,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.lakshmanan.gmapsandroid:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.AN_Maps:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -12639,7 +12639,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.lakshmanan.gmapsandroid:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.AN_Maps:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -12647,13 +12647,13 @@ public final class R {
         0x7f030158
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:state_above_anchor
+     * @attr name com.AN_Maps:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -12684,13 +12684,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:overlapAnchor
+     * @attr name com.AN_Maps:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -12700,8 +12700,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.lakshmanan.gmapsandroid:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.lakshmanan.gmapsandroid:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.AN_Maps:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.AN_Maps:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -12710,7 +12710,7 @@ public final class R {
         0x7f030125, 0x7f030128
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12719,11 +12719,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:paddingBottomNoButtons
+     * @attr name com.AN_Maps:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12732,7 +12732,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:paddingTopNoTitle
+     * @attr name com.AN_Maps:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -12746,19 +12746,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.lakshmanan.gmapsandroid:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.lakshmanan.gmapsandroid:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.lakshmanan.gmapsandroid:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.lakshmanan.gmapsandroid:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.lakshmanan.gmapsandroid:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.lakshmanan.gmapsandroid:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.lakshmanan.gmapsandroid:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.lakshmanan.gmapsandroid:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.lakshmanan.gmapsandroid:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.lakshmanan.gmapsandroid:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.lakshmanan.gmapsandroid:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.lakshmanan.gmapsandroid:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.lakshmanan.gmapsandroid:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.AN_Maps:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.AN_Maps:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.AN_Maps:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.AN_Maps:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.AN_Maps:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.AN_Maps:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.AN_Maps:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.AN_Maps:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.AN_Maps:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.AN_Maps:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.AN_Maps:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.AN_Maps:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.AN_Maps:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -12896,7 +12896,7 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12904,11 +12904,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:closeIcon
+     * @attr name com.AN_Maps:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12916,21 +12916,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:commitIcon
+     * @attr name com.AN_Maps:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:defaultQueryHint
+     * @attr name com.AN_Maps:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12938,21 +12938,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:goIcon
+     * @attr name com.AN_Maps:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:iconifiedByDefault
+     * @attr name com.AN_Maps:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12960,11 +12960,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:layout
+     * @attr name com.AN_Maps:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12972,21 +12972,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:queryBackground
+     * @attr name com.AN_Maps:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:queryHint
+     * @attr name com.AN_Maps:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12994,11 +12994,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:searchHintIcon
+     * @attr name com.AN_Maps:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13006,11 +13006,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:searchIcon
+     * @attr name com.AN_Maps:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13018,11 +13018,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:submitBackground
+     * @attr name com.AN_Maps:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13030,11 +13030,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:suggestionRowLayout
+     * @attr name com.AN_Maps:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13042,7 +13042,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:voiceIcon
+     * @attr name com.AN_Maps:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -13052,13 +13052,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Section_indexPrefixes com.example.lakshmanan.gmapsandroid:indexPrefixes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_noIndex com.example.lakshmanan.gmapsandroid:noIndex}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_schemaOrgProperty com.example.lakshmanan.gmapsandroid:schemaOrgProperty}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_sectionFormat com.example.lakshmanan.gmapsandroid:sectionFormat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_sectionId com.example.lakshmanan.gmapsandroid:sectionId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_sectionWeight com.example.lakshmanan.gmapsandroid:sectionWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_subsectionSeparator com.example.lakshmanan.gmapsandroid:subsectionSeparator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_indexPrefixes com.AN_Maps:indexPrefixes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_noIndex com.AN_Maps:noIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_schemaOrgProperty com.AN_Maps:schemaOrgProperty}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_sectionFormat com.AN_Maps:sectionFormat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_sectionId com.AN_Maps:sectionId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_sectionWeight com.AN_Maps:sectionWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_subsectionSeparator com.AN_Maps:subsectionSeparator}</code></td><td></td></tr>
      * </table>
      * @see #Section_indexPrefixes
      * @see #Section_noIndex
@@ -13079,7 +13079,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SectionFeature_featureType com.example.lakshmanan.gmapsandroid:featureType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SectionFeature_featureType com.AN_Maps:featureType}</code></td><td></td></tr>
      * </table>
      * @see #SectionFeature_featureType
      */
@@ -13087,7 +13087,7 @@ public final class R {
         0x7f0300ab
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#featureType}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#featureType}
      * attribute's value can be found in the {@link #SectionFeature} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13104,41 +13104,41 @@ public final class R {
      * <tr><td>omnibox_url_section</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:featureType
+     * @attr name com.AN_Maps:featureType
      */
     public static final int SectionFeature_featureType=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#indexPrefixes}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#indexPrefixes}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:indexPrefixes
+     * @attr name com.AN_Maps:indexPrefixes
      */
     public static final int Section_indexPrefixes=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#noIndex}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#noIndex}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:noIndex
+     * @attr name com.AN_Maps:noIndex
      */
     public static final int Section_noIndex=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#schemaOrgProperty}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#schemaOrgProperty}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:schemaOrgProperty
+     * @attr name com.AN_Maps:schemaOrgProperty
      */
     public static final int Section_schemaOrgProperty=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#sectionFormat}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#sectionFormat}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13154,36 +13154,36 @@ public final class R {
      * <tr><td>url</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:sectionFormat
+     * @attr name com.AN_Maps:sectionFormat
      */
     public static final int Section_sectionFormat=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#sectionId}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#sectionId}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:sectionId
+     * @attr name com.AN_Maps:sectionId
      */
     public static final int Section_sectionId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#sectionWeight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#sectionWeight}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:sectionWeight
+     * @attr name com.AN_Maps:sectionWeight
      */
     public static final int Section_sectionWeight=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subsectionSeparator}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subsectionSeparator}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subsectionSeparator
+     * @attr name com.AN_Maps:subsectionSeparator
      */
     public static final int Section_subsectionSeparator=6;
     /**
@@ -13193,9 +13193,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.example.lakshmanan.gmapsandroid:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.example.lakshmanan.gmapsandroid:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.example.lakshmanan.gmapsandroid:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize com.AN_Maps:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme com.AN_Maps:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris com.AN_Maps:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -13205,7 +13205,7 @@ public final class R {
         0x7f030045, 0x7f030084, 0x7f03013d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13223,11 +13223,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonSize
+     * @attr name com.AN_Maps:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13245,11 +13245,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:colorScheme
+     * @attr name com.AN_Maps:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13259,7 +13259,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:scopeUris
+     * @attr name com.AN_Maps:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -13273,7 +13273,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.lakshmanan.gmapsandroid:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.AN_Maps:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -13348,7 +13348,7 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13356,7 +13356,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:popupTheme
+     * @attr name com.AN_Maps:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -13369,17 +13369,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.lakshmanan.gmapsandroid:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.lakshmanan.gmapsandroid:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.lakshmanan.gmapsandroid:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.lakshmanan.gmapsandroid:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.lakshmanan.gmapsandroid:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.lakshmanan.gmapsandroid:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.lakshmanan.gmapsandroid:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.lakshmanan.gmapsandroid:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.lakshmanan.gmapsandroid:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.lakshmanan.gmapsandroid:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.lakshmanan.gmapsandroid:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.AN_Maps:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.AN_Maps:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.AN_Maps:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.AN_Maps:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.AN_Maps:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.AN_Maps:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.AN_Maps:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.AN_Maps:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.AN_Maps:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.AN_Maps:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.AN_Maps:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -13435,27 +13435,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:showText
+     * @attr name com.AN_Maps:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:splitTrack
+     * @attr name com.AN_Maps:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13464,11 +13464,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:switchMinWidth
+     * @attr name com.AN_Maps:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13477,11 +13477,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:switchPadding
+     * @attr name com.AN_Maps:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13489,11 +13489,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:switchTextAppearance
+     * @attr name com.AN_Maps:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13502,22 +13502,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:thumbTextPadding
+     * @attr name com.AN_Maps:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:thumbTint
+     * @attr name com.AN_Maps:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13534,11 +13534,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:thumbTintMode
+     * @attr name com.AN_Maps:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13546,22 +13546,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:track
+     * @attr name com.AN_Maps:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:trackTint
+     * @attr name com.AN_Maps:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13578,7 +13578,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:trackTintMode
+     * @attr name com.AN_Maps:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -13599,8 +13599,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.example.lakshmanan.gmapsandroid:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.lakshmanan.gmapsandroid:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.AN_Maps:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.AN_Maps:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -13766,17 +13766,17 @@ public final class R {
      */
     public static final int TextAppearance_android_typeface=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fontFamily
+     * @attr name com.AN_Maps:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13786,7 +13786,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:textAllCaps
+     * @attr name com.AN_Maps:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -13798,33 +13798,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.lakshmanan.gmapsandroid:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.lakshmanan.gmapsandroid:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.lakshmanan.gmapsandroid:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.lakshmanan.gmapsandroid:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.lakshmanan.gmapsandroid:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.lakshmanan.gmapsandroid:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.lakshmanan.gmapsandroid:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.lakshmanan.gmapsandroid:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.lakshmanan.gmapsandroid:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.lakshmanan.gmapsandroid:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.lakshmanan.gmapsandroid:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.lakshmanan.gmapsandroid:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.lakshmanan.gmapsandroid:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.lakshmanan.gmapsandroid:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.lakshmanan.gmapsandroid:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.lakshmanan.gmapsandroid:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.lakshmanan.gmapsandroid:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.lakshmanan.gmapsandroid:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.lakshmanan.gmapsandroid:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.lakshmanan.gmapsandroid:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.lakshmanan.gmapsandroid:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.lakshmanan.gmapsandroid:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.lakshmanan.gmapsandroid:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.lakshmanan.gmapsandroid:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.lakshmanan.gmapsandroid:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.lakshmanan.gmapsandroid:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.lakshmanan.gmapsandroid:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.AN_Maps:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.AN_Maps:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.AN_Maps:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.AN_Maps:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.AN_Maps:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.AN_Maps:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.AN_Maps:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.AN_Maps:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.AN_Maps:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.AN_Maps:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.AN_Maps:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.AN_Maps:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.AN_Maps:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.AN_Maps:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.AN_Maps:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.AN_Maps:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.AN_Maps:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.AN_Maps:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.AN_Maps:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.AN_Maps:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.AN_Maps:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.AN_Maps:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.AN_Maps:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.AN_Maps:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.AN_Maps:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.AN_Maps:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.AN_Maps:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -13909,7 +13909,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13922,21 +13922,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buttonGravity
+     * @attr name com.AN_Maps:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:collapseContentDescription
+     * @attr name com.AN_Maps:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13944,11 +13944,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:collapseIcon
+     * @attr name com.AN_Maps:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13957,11 +13957,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetEnd
+     * @attr name com.AN_Maps:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13970,11 +13970,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetEndWithActions
+     * @attr name com.AN_Maps:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13983,11 +13983,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetLeft
+     * @attr name com.AN_Maps:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13996,11 +13996,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetRight
+     * @attr name com.AN_Maps:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14009,11 +14009,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetStart
+     * @attr name com.AN_Maps:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14022,11 +14022,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:contentInsetStartWithNavigation
+     * @attr name com.AN_Maps:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14034,21 +14034,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:logo
+     * @attr name com.AN_Maps:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:logoDescription
+     * @attr name com.AN_Maps:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14057,21 +14057,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maxButtonHeight
+     * @attr name com.AN_Maps:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:navigationContentDescription
+     * @attr name com.AN_Maps:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14079,11 +14079,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:navigationIcon
+     * @attr name com.AN_Maps:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14091,21 +14091,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:popupTheme
+     * @attr name com.AN_Maps:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subtitle
+     * @attr name com.AN_Maps:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14113,32 +14113,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subtitleTextAppearance
+     * @attr name com.AN_Maps:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:subtitleTextColor
+     * @attr name com.AN_Maps:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:title
+     * @attr name com.AN_Maps:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14147,11 +14147,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleMargin
+     * @attr name com.AN_Maps:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14160,11 +14160,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleMarginBottom
+     * @attr name com.AN_Maps:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14173,11 +14173,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleMarginEnd
+     * @attr name com.AN_Maps:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14186,11 +14186,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleMarginStart
+     * @attr name com.AN_Maps:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14199,11 +14199,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleMarginTop
+     * @attr name com.AN_Maps:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14212,11 +14212,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleMargins
+     * @attr name com.AN_Maps:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14224,18 +14224,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleTextAppearance
+     * @attr name com.AN_Maps:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:titleTextColor
+     * @attr name com.AN_Maps:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -14247,9 +14247,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.lakshmanan.gmapsandroid:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.lakshmanan.gmapsandroid:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.example.lakshmanan.gmapsandroid:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.AN_Maps:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.AN_Maps:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.AN_Maps:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -14269,8 +14269,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.lakshmanan.gmapsandroid:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.lakshmanan.gmapsandroid:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.AN_Maps:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.AN_Maps:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -14295,18 +14295,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:backgroundTint
+     * @attr name com.AN_Maps:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14322,7 +14322,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:backgroundTintMode
+     * @attr name com.AN_Maps:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -14410,7 +14410,7 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14419,11 +14419,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:paddingEnd
+     * @attr name com.AN_Maps:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14432,11 +14432,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:paddingStart
+     * @attr name com.AN_Maps:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14444,7 +14444,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:theme
+     * @attr name com.AN_Maps:theme
      */
     public static final int View_theme=4;
     /**
@@ -14454,10 +14454,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_appTheme com.example.lakshmanan.gmapsandroid:appTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_environment com.example.lakshmanan.gmapsandroid:environment}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.example.lakshmanan.gmapsandroid:fragmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.example.lakshmanan.gmapsandroid:fragmentStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_appTheme com.AN_Maps:appTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_environment com.AN_Maps:environment}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.AN_Maps:fragmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.AN_Maps:fragmentStyle}</code></td><td></td></tr>
      * </table>
      * @see #WalletFragmentOptions_appTheme
      * @see #WalletFragmentOptions_environment
@@ -14468,7 +14468,7 @@ public final class R {
         0x7f03002e, 0x7f0300a8, 0x7f0300b6, 0x7f0300b7
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#appTheme}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#appTheme}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14481,11 +14481,11 @@ public final class R {
      * <tr><td>holo_light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:appTheme
+     * @attr name com.AN_Maps:appTheme
      */
     public static final int WalletFragmentOptions_appTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#environment}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#environment}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14500,11 +14500,11 @@ public final class R {
      * <tr><td>test</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:environment
+     * @attr name com.AN_Maps:environment
      */
     public static final int WalletFragmentOptions_environment=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fragmentMode}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fragmentMode}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14517,11 +14517,11 @@ public final class R {
      * <tr><td>selectionDetails</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fragmentMode
+     * @attr name com.AN_Maps:fragmentMode
      */
     public static final int WalletFragmentOptions_fragmentMode=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#fragmentStyle}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#fragmentStyle}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14529,7 +14529,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:fragmentStyle
+     * @attr name com.AN_Maps:fragmentStyle
      */
     public static final int WalletFragmentOptions_fragmentStyle=3;
     /**
@@ -14539,17 +14539,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.example.lakshmanan.gmapsandroid:buyButtonAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.example.lakshmanan.gmapsandroid:buyButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.example.lakshmanan.gmapsandroid:buyButtonText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.example.lakshmanan.gmapsandroid:buyButtonWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.example.lakshmanan.gmapsandroid:maskedWalletDetailsBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.example.lakshmanan.gmapsandroid:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.example.lakshmanan.gmapsandroid:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.example.lakshmanan.gmapsandroid:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.example.lakshmanan.gmapsandroid:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.example.lakshmanan.gmapsandroid:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.example.lakshmanan.gmapsandroid:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.AN_Maps:buyButtonAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.AN_Maps:buyButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.AN_Maps:buyButtonText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.AN_Maps:buyButtonWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.AN_Maps:maskedWalletDetailsBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.AN_Maps:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.AN_Maps:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.AN_Maps:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.AN_Maps:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.AN_Maps:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.AN_Maps:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #WalletFragmentStyle_buyButtonAppearance
      * @see #WalletFragmentStyle_buyButtonHeight
@@ -14569,7 +14569,7 @@ public final class R {
         0x7f03010e, 0x7f03010f, 0x7f030110
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buyButtonAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buyButtonAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14589,11 +14589,11 @@ public final class R {
      * <tr><td>monochrome</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buyButtonAppearance
+     * @attr name com.AN_Maps:buyButtonAppearance
      */
     public static final int WalletFragmentStyle_buyButtonAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buyButtonHeight}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buyButtonHeight}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14611,11 +14611,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buyButtonHeight
+     * @attr name com.AN_Maps:buyButtonHeight
      */
     public static final int WalletFragmentStyle_buyButtonHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buyButtonText}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buyButtonText}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14633,11 +14633,11 @@ public final class R {
      * <tr><td>logo_only</td><td>6</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buyButtonText
+     * @attr name com.AN_Maps:buyButtonText
      */
     public static final int WalletFragmentStyle_buyButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#buyButtonWidth}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#buyButtonWidth}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14655,11 +14655,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:buyButtonWidth
+     * @attr name com.AN_Maps:buyButtonWidth
      */
     public static final int WalletFragmentStyle_buyButtonWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsBackground}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14670,11 +14670,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsBackground
+     * @attr name com.AN_Maps:maskedWalletDetailsBackground
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsBackground=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsButtonBackground}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsButtonBackground}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14685,11 +14685,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsButtonBackground
+     * @attr name com.AN_Maps:maskedWalletDetailsButtonBackground
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsButtonTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsButtonTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14697,11 +14697,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsButtonTextAppearance
+     * @attr name com.AN_Maps:maskedWalletDetailsButtonTextAppearance
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsHeaderTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsHeaderTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14709,11 +14709,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsHeaderTextAppearance
+     * @attr name com.AN_Maps:maskedWalletDetailsHeaderTextAppearance
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsLogoImageType}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsLogoImageType}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14729,22 +14729,22 @@ public final class R {
      * <tr><td>monochrome</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsLogoImageType
+     * @attr name com.AN_Maps:maskedWalletDetailsLogoImageType
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsLogoTextColor}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsLogoTextColor}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsLogoTextColor
+     * @attr name com.AN_Maps:maskedWalletDetailsLogoTextColor
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.lakshmanan.gmapsandroid.R.attr#maskedWalletDetailsTextAppearance}
+     * <p>This symbol is the offset where the {@link com.AN_Maps.R.attr#maskedWalletDetailsTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14752,7 +14752,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.lakshmanan.gmapsandroid:maskedWalletDetailsTextAppearance
+     * @attr name com.AN_Maps:maskedWalletDetailsTextAppearance
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance=10;
   }
