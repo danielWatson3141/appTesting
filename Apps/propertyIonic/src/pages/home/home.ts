@@ -2,15 +2,34 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HTTP } from '@ionic-native/http';
 
+import { Directive, Renderer, ElementRef} from '@angular/core';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
+@Directive({ 
+    selector: '[focuser]' // Attribute selector
+})
 export class HomePage {
 
-  constructor(public navCtrl: NavController, private http: HTTP) {
+  constructor(public navCtrl: NavController, private http: HTTP, private renderer:Renderer,
+                private elementRef:ElementRef) {
 
   }
+
+  ionViewLoaded() {
+
+  }
+
+  ngAfterViewInit() { 
+        // we need to delay our call in order to work with ionic ...
+      setTimeout(() => {
+          const element = this.elementRef.nativeElement.querySelector('input');
+          this.renderer.invokeElementMethod(element, 'focus', []);
+      }, 500);
+  }   
 
   formSubmit(searchtext){
   	console.log("Hey:"+searchtext);
