@@ -11,9 +11,10 @@ extractCSV=function(filename, name = filename){
 	Package = rawData[2,2]
 	Time = rawData[2,3]
 	Duration = rawData[2,4]
-	colNames = rawData[4,]
-	#print(colNames)
-	for(i in 5:nrow(rawData)){			#find end of data
+	colNames = rawData[3,1:8]
+	print(colNames)
+	browser("", debug)
+	for(i in 4:nrow(rawData)){			#find end of data
 		if(all(is.na(rawData[i,]))){
 			break
 		}
@@ -21,7 +22,7 @@ extractCSV=function(filename, name = filename){
 	rowNames = as.character(unlist(seq(from = 1, to = i-1, by = 1)))
 	#print(dim(rowNames))
 	
-	dataPoints = as.matrix(rawData[c(6:i-1), -11]) #trim
+	dataPoints = as.matrix(rawData[c(6:i-1), 1:8]) #trim
 	storage.mode(dataPoints) <- "numeric"
 	
 	
@@ -30,7 +31,7 @@ extractCSV=function(filename, name = filename){
 	attr(dataPoints, 'package') = Package
 	attr(dataPoints, 'time') = Time
 	attr(dataPoints, 'duration') = Duration
-	colNames = as.character(unlist(colNames))
+	#colNames = colNames[,-9]
 	print(colNames)
 	
 	
@@ -38,7 +39,9 @@ extractCSV=function(filename, name = filename){
 	print("dim:")
 	print(dim(dataPoints))
 	#print(typeof(dataPoints))
-	colnames(dataPoints) = colNames
+	browser("", debug)
+	colnames(dataPoints) = as.character(unlist(colNames,TRUE))
+	
 	rownames(dataPoints) <- 1:nrow(dataPoints)
 	computeAttr(dataPoints)
 	return(dataPoints)

@@ -168,6 +168,7 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 	#compute vectors of maxes and mins
 	#There's an apply way to do this but
 	#fuckin R isn't working with me today
+	
 	for(i in 1:n){
 		Cmax = -Inf
 		Cmin = Inf

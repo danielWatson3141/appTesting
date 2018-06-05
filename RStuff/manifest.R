@@ -44,6 +44,13 @@ top <- function(x, n){
 	tail( order(x), n )
 }
 
+bp = function(){
+	if(debug)
+		browser()
+}
+
+rf = refresh
+
 
 
 library(e1071)
