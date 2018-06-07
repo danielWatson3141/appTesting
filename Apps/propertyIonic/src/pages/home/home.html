@@ -12,7 +12,7 @@
 
 	<form (ngSubmit)="formSubmit(searchtext)">
 		<ion-item>
-		  <ion-input type="text" [(ngModel)]="searchtext" [ngModelOptions]="{standalone: true}" #inputToFocus></ion-input>
+		  <ion-input type="text" [(ngModel)]="searchtext" [ngModelOptions]="{standalone: true}" (keyup.enter)="handleLogin(searchtext)" #inputToFocus></ion-input>
 		</ion-item>
 		<button ion-button>Go</button>
 	</form>

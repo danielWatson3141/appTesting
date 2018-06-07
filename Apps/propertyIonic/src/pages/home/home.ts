@@ -38,6 +38,10 @@ export class HomePage {
     this.fetch(str);
   }
 
+  handleLogin(searchtext) {
+    this.formSubmit(searchtext);
+  }
+
   fetch(str){
   	this.http.get(str, {}, {})
 	  	.then(data => {
