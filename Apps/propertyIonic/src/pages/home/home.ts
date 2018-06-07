@@ -19,17 +19,22 @@ export class HomePage {
 
   }
 
-  ionViewLoaded() {
-
+  ionViewDidEnter() {
+    console.log('Did enter home.');
+    setTimeout(() => {
+        const element = this.elementRef.nativeElement.querySelector('input');
+        this.renderer.invokeElementMethod(element, 'focus', []);
+    }, 500);
   }
 
-  ngAfterViewInit() { 
-        // we need to delay our call in order to work with ionic ...
-      setTimeout(() => {
-          const element = this.elementRef.nativeElement.querySelector('input');
-          this.renderer.invokeElementMethod(element, 'focus', []);
-      }, 500);
-  }   
+  // ngAfterViewInit() { 
+  //   console.log("I am ng init view");
+  //     // we need to delay our call in order to work with ionic ...
+  //   // setTimeout(() => {
+  //   //   const element = this.elementRef.nativeElement.querySelector('input');
+  //   //   this.renderer.invokeElementMethod(element, 'focus', []);
+  //   // }, 500);      
+  // } 
 
   formSubmit(searchtext){
   	console.log("Hey:"+searchtext);
