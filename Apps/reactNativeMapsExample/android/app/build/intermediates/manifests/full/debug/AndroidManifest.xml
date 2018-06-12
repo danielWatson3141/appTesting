@@ -22,15 +22,14 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.reactnativemapsexample.MainApplication"
+        android:name="com.RN_Maps.MainApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.reactnativemapsexample.MainActivity"
+            android:name="com.RN_Maps.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" >

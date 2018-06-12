@@ -16,7 +16,7 @@ export default class Maps extends Component<{}> {
   render() {
     return (
       <MapView
-        region={getDelta(-34, 151, 20000000)}
+        region={getDelta(38.4167, 112.7342, 20000)}
         style={StyleSheet.absoluteFillObject}>
 
       </MapView>

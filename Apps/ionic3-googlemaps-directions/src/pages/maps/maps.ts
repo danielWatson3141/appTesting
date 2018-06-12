@@ -30,8 +30,8 @@ export class MapsPage {
 
 	initMap() {
 	  this.map = new google.maps.Map(this.mapElement.nativeElement, {
-	    zoom: 2,
-	    center: {lat: 34, lng: 151},
+	    zoom: 12,
+	    center: {lat: 38.4167, lng: 112.7342},
 	    streetViewControl: false,
 	    mapTypeControl: false,
 	    fullscreenControl: false

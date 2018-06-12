@@ -1,4 +1,4 @@
-package com.reactnativemapsexample;
+package com.RN_Maps;
 
 import com.facebook.react.ReactActivity;
 
