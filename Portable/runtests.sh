@@ -1,23 +1,23 @@
 #!/bin/bash
 
-target = $args[0] #target device (or devices)
-trace = $args[1]  #trace file to run
-runs = $args[2]   #times to run
-bufferRuns = $args[3] #times to run before profiling
-app = $args[4]    #app to run trace on
-outputFile = $args[5] #output file name to use (without extension)
-prefsFile = $args[6] #prefs to use
-trepnPath = $args[7] #Trepn directory on Android device 
-defaultPath = "sdcard/trepn"
+target=$1 #target device (or devices)
+trace=$2  #trace file to run
+runs=$3   #times to run
+bufferRuns=$4 #times to run before profiling
+app=$5    #app to run trace on
+outputFile=$6 #output file name to use (without extension)
+prefsFile=$7 #prefs to use
+trepnPath=$8 #Trepn directory on Android device 
+defaultPath="sdcard/trepn"
 
 #Use default path if none provided.
 
-if !$trepnPath
+if $# -eq 7
 	then
-	trepnPath = -join($defaultPath,"/",$outputFile,".csv") 
+	trepnPath=$defaultPath"/"$outputFile".csv"
 	else 
-	trepnPath = -join($trepnPath,"/",$outputFile,".csv")
-
+	trepnPath=$trepnPath"/"$outputFile".csv"
+fi
 Write-Host "output file:"
 Write-Host  $outputFile
 
@@ -52,7 +52,7 @@ do
 	Start-Sleep -s 10 #pause
 	Write-Host "playing:"
 	Write-Host $trace
-	ErrorActionPreference = "silentlyContinue"
+	ErrorActionPreference="silentlyContinue"
 	starfish trace replay $trace $target #---------------------------------run prerecorded test
 	Start-Sleep -s 5 #pause
 	starfish devices control $target shell am force-stop $app #------------halt target app so it can be re-launched
