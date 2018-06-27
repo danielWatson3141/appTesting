@@ -1,44 +1,43 @@
 Setup
 
-Install Android SDK cli tools:
-
-Windows: ...
-Linux: ...
-Mac: ...
-
-Ensure <sdk>/platform-tools is in your PATH:
-
-Windows: ...
-Linux: ...
-Mac: ...
-
 Make sure adb is working:
 type "adb". It should give you a version number.
+If it does not, do the following
 
+1. Install Android SDK cli tools.
+
+2. Ensure <sdk>/platform-tools is in your PATH.
+
+Check the adb once again to ensure everything is working.
 
 Install Trepn Profiler - available on Google Play Store
 
+Configuring Trepn
 
-Get the path for the executable:
+Once installed, we need to configure Trepn to record what we want to measure.
+Open trepn and go to settings>Data Points
 
-Windows: From shell terminal in Portable/replaykit-master/%Your OS%:
+Find the executable file called starfish.exe or appetizer.sh:
 
-(Windows) $starfish = Resolve-Path starfish.exe
-(Linux) 
-(Mac)
+From shell terminal in Portable/replaykit-master/%Your OS%:
 
-Add this to your path as well.
+(Windows) $starfish = Resolve-Path starfish.exe -- add this to PATH
+
+Make sure this file is executable,
+(Linux) chmod 777 appetizer 
+(Mac) chmod 777 appetizer
+and add this to your path as well.
 Basic Use:
 
 Commands can be sent to the phone over the adb(Android Debugging Bridge).
 
-Enable usb debugging on the Android device. ....
+Enable usb debugging on the Android device.
 
-In developer options, enable "Show Touches" as this will help down the road.
+(optional, but highly recommended) In your phone's developer options, enable "Show Touches" as this will help down the road.
 
-Plug the phone into the laptop.
+Plug the phone into your computer
 
-Send a command to the phone.
+Test the link by sending a command to the phone over the adb.
 
 With the screen off, type:
 
@@ -61,6 +60,7 @@ Any command we can send over the adb, we can send over starfish. For example:
 starfish devices control $myPhone shell input keyevent KEYCODE_WAKEUP
 
 One thing starfish allows us to do that the adb does not is control multiple devices at once.
+(This step is optional, but allows you to control multiple phones if you wish.)
 
 We first create an array of uid's:
 $myPhones = $phone1,$phone2,$phone3
@@ -72,22 +72,22 @@ Recording touch interactions:
 More detail can be found on the GitHub.
 
 Start recording:
-starfish trace record --device $myPhone traces/mytrace.trace
+starfish trace record --device $myPhone mytrace.trace
 
 type 'exit' to stop.
 
 Check the trace (optional):
 starfish trace info mytrace.trace
+
 This gives information about the trace such as duration and number of recorded events.
 If numbers seem off, something isn't working right.
 
+We can also view and edit the trace file by decompressing it, then opening it with a text editor. Replaykit
+is ok with compressed or decompressed trace files but they are compressed by default
+
 Play back the Trace:
-Starfish trace replay traces/mytrace.trace $myPhone
+Starfish trace replay mytrace.trace $myPhone
 
-Configuring Trepn
-
-Once installed, we need to configure Trepn to record what we want to measure.
-Open trepn and go to settings>Data Points
 
 I recommend using CPU Load(Normalized), GPU Load, Memory Usage, and Screen State
 
@@ -109,7 +109,7 @@ Find the package name if the app you want to test:
 
  adb shell pm list packages
  
- will show you all packages installed on the device. To narrow the list, type:
+ This will show you all packages installed on the device. To narrow the list, type:
  
  adb shell pm list packages %filter% 
  
@@ -117,7 +117,7 @@ Find the package name if the app you want to test:
  
  save the full package name as a variable:
  
- $myapp = com.%me%.%myapp%
+ $myapp = "com.%me%.%myapp%"
 
  Record a trace for our app by launching it, starting the trace, 
  interacting a bit, then exiting the trace.
@@ -132,6 +132,7 @@ This will launch your target app and run your trace 5 times while profiling it w
 Once it has completed its execution 5 times, it will save Trepn's output as a csv, which 
 then be pulled into your working directory. Each Experiment(set of runs) generates 1 csv file
 which can then be processed in Excel, R, Matlab, or your spreadsheet software of choice.
+
 Advanced Usage
 
 Open runtests with your preferred text editor or IDE.
@@ -175,4 +176,23 @@ I do not mean to suggest we cannot use the tool to perform tests on these apps,
 but our sample variance is likely to be much higher and possibly more sensitive to small variations
 in experimental technique. Draw conclusions with caution when testing such apps.
 
-       
+Once you've chosen an app to profile, decide what interactions to test. Consider:
+-Does this set of interactions sufficiently resemble a typical use case?
+-Should this set of interactions consistently give us the same response?
+
+Example:
+
+Open propertyExp.ps1. In this file, we've scripted an experiment to test a very simple listview
+demonstration app, like the one found here:
+https://www.raywenderlich.com/178012/react-native-tutorial-building-android-apps-javascript
+Our script clears the text box, types in the name of a city (from a list of 3), presses enter, then scrolls the list up and down for a little while,
+before hitting the back button and returning to the main screen.
+
+Suggestions:
+
+As mentioned previously, certain games make good candidates for testing.
+
+Web browsers make excellent candidates for this tool, as for most websites, 
+the user sees the same content when they navigate to them. One could, for example, design
+an experiment to test the efficiency or quickness of web browsers by tapping the url bar,
+typing out a website, and pressing enter.

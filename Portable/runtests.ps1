@@ -4,12 +4,15 @@ $runs = $args[2]   #times to run
 $bufferRuns = $args[3] #times to run before profiling
 $app = $args[4]    #app to run trace on
 $outputFile = $args[5] #output file name to use (without extension)
-$prefsFile = $args[6] #prefs to use
-$trepnPath = $args[7] #Trepn directory on Android device 
-$defaultPath = "sdcard/trepn"
+$trepnPath = $args[6] #Trepn directory on Android device 
+
 
 #Use default path if none provided.
-$trepnPath =if(!$trepnPath) { -join($defaultPath,"/",$outputFile,".csv") } else { -join($trepnPath,"/",$outputFile,".csv")}
+if($args[7]) {
+	#load prefs
+	starfish devices control $target shell am broadcast -a com.quicinc.trepn.load_preferences -e com.quicinc.trepn.load_preferences_file -join($trepnPath ,"/saved_preferences/", $prefsFile)
+	Start-Sleep -s 1
+ }
 
 Write-Host "output file:"
 Write-Host  $outputFile
@@ -19,9 +22,7 @@ starfish devices control $target shell am startservice com.quicinc.trepn/.TrepnS
 
 Start-Sleep -s 1 #pause
 
-#load prefs
-starfish devices control $target shell am broadcast -a com.quicinc.trepn.load_preferences -e com.quicinc.trepn.load_preferences_file -join($trepnPath ,"/saved_preferences/", $prefsFile)
-Start-Sleep -s 1
+
 
 starfish devices control $target shell input keyevent KEYCODE_POWER #turn off screen
 
@@ -54,8 +55,7 @@ For ($i=0; $i -lt $runs ; $i++){
 }
 
 #stop profiling
-starfish devices control $target shell am broadcast -a com.quicinc.trepn.stop_profiling
-
+\
 #convert the output to csv
 starfish devices control $target shell am broadcast -a com.quicinc.trepn.export_to_csv -e com.quicinc.trepn.export_db_input_file "trepnTemp.db" -e com.quicinc.trepn.export_csv_output_file $outputFile
 Write-Host "Output successful"
