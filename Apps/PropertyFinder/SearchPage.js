@@ -76,6 +76,10 @@ export default class SearchPage extends Component<{}> {
     // console.log('Current: '+this.state.searchString+', Next: '+event.nativeEvent.text);
   };
 
+  componentDidMount() {
+    this.focusListener = this.props.navigation.addListener('didFocus', () => this.textInput.focus());
+  }
+
   render() {
     // console.log('SearchPage.render');
     const spinner = this.state.isLoading ? <ActivityIndicator size='large'/> : null;
@@ -90,6 +94,7 @@ export default class SearchPage extends Component<{}> {
 
         <View style={styles.flowRight}>
           <TextInput
+            ref={(component) => this.textInput = component}
             underlineColorAndroid={'transparent'}
             style={styles.searchInput}
             value={this.state.searchString}
