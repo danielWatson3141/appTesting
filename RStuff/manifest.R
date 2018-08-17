@@ -3,6 +3,15 @@
 # Author: dj2watso
 ###############################################################################
 
+library(e1071)
+library("tm")
+library("magrittr")
+library("klaR")
+library("caret")
+library("plyr")
+library("class")
+library(pracma)
+
 
 refresh = function(){
 	source("Rstuff/fileUtils.R")
@@ -13,9 +22,15 @@ refresh = function(){
 	gc()
 }
 
+cdh = function(){
+	cd("C:/Users/dj2watso/eclipse-workspace/appTesting")
+}
+
+
 memory.limit(5000)
 
 lv = function(){
+	
 	return(.Last.value)
 }
 
@@ -51,6 +66,20 @@ bp = function(){
 
 rf = refresh
 
+getName = function(x)
+{
+	deparse(substitute(x))
+}
+
+trimToSmaller=function(x,y){
+	xl=length(x)
+	yl=length(y)
+	if(xl<yl)
+		return(c(x,y[1:length(x)]))
+	else
+		return(list(x[1:length(y)],y))
+}
+
 
 
 library(e1071)
@@ -60,6 +89,7 @@ library("klaR")
 library("caret")
 library("plyr")
 library("class")
+library(pracma)
 
 
 
@@ -79,4 +109,4 @@ add <- function(x) Reduce("+", x)
 					function(e) parse(text = e)
 			)[[2 - as.logical(x)]])
 
-
+setwd(wd)

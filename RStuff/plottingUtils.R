@@ -16,10 +16,30 @@ plotSingleInstance=function(inst, metric="CPU Load (Normalized) [%]", color, min
 			type="l", col=color,	#colored line
 			xlab = "time (ms)",	#label x axis
 			ylab = metric, #label y axis
-			
 			ylim = c(min, max),	#ensure y axis is scaled properly
 			main = paste(metric, " VS ", "Time")
 	)
+}
+
+KSTest = function(inst1, inst2, metric="CPU Load (Normalized) [%]"){
+	#bind instances if multiple
+	if(typeof(inst1)=="list"){
+		inst1 = do.call(rbind, inst1, 1)
+	}
+	
+	if(typeof(inst2)=="list"){
+		inst2 = do.call(rbind, inst2, 1)
+	}
+	
+	
+	#get metric
+	met1 = inst1[,metric]
+	met2 = inst2[,metric]
+	
+	met1 = sort(met1)
+	met2 = sort(met2)
+	
+	return(ks.test(inst1,inst2))
 }
 
 compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors=c("red","blue")){
@@ -64,11 +84,18 @@ compareSorts = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors
 		browser()
 	plot(met1, col="red", xlim = c(1, indMax), ylim = c(ymin, ymax), ylab=metric,  main = paste(metric, " VS ", "Sorted Observations"))
 	points(met2, col="blue",  xlim = c(1, indMax), ylim = c(ymin, ymax))
+	
 }
 
-compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors=c("red","blue"), min, max){
-	plotSingleInstance(mean1, metric, colors[1], min, max)
+compareMeans = function(inst1, inst2, metric="CPU Load (Normalized) [%]", colors=c("red","blue"), min, max, rollmean=FALSE){
 	
+	mean1 = getMean(inst1)
+	mean2 = getMean(inst2)
+	
+	name1=deparse(substitute(inst1))
+	name2=deparse(substitute(inst2))
+	
+	#get timestamps
 	time1 = mean1[,(which(colnames(mean1)==metric)-1)]
 	time2 = mean2[,(which(colnames(mean2)==metric)-1)]
 	
@@ -84,9 +111,15 @@ compareMeans = function(mean1, mean2, metric="CPU Load (Normalized) [%]", colors
 	#shift by offset
 	time2 = time2-diff
 	
-	
-	
+	#plot
+	#png(paste("plots/",name1,"VS",name2,".png",sep=""),5000,1000)
+	#plot.new()
+	plot(time1, mean1[,metric] ,type="l", col= colors[1], lwd=1, ylim=c(0,100))
 	lines(time2, mean2[,metric], col=colors[2], lwd=1)
+	
+	#plot legend
+	legend(0,max,c(name1,name2),c("red","blue"))
+	#dev.off()
 }
 
 plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=getAggregator(TRUE), colors=NULL, Ylim=NULL, wait=FALSE){
@@ -131,7 +164,7 @@ plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=get
 	
 	#create plot with first instance
 	#print(lst[[1]])
-	graphics.off()
+	#graphics.off()
 	#print(c(min, max))
 	
 	plotSingleInstance(lst[[1]],metric, colors[1], min, max)
@@ -153,10 +186,11 @@ plotInstances=function(lst, metric = "CPU Load (Normalized) [%]", aggregator=get
 		lines(lst[[n]][,timeInd], lst[[n]][,metric], col=colors[n])
 }
 
-makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Ylim=NULL){
+makeDygraph = function(lstUnsmooth, smooth=FALSE, metric = "CPU Load (Normalized) [%]", colors=NULL, Ylim=NULL){
 	
-	aggregator=getAggregator(TRUE)
-	lst = aggregator(lst)	
+	
+	aggregator=getAggregator(smooth)
+	lst = aggregator(lstUnsmooth)	
 	d = length(lst)
 	n = nrow(lst[[1]])
 	timeInd = which(colnames(lst[[1]])==metric)-1
@@ -170,6 +204,10 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 	#fuckin R isn't working with me today
 	
 	for(i in 1:n){
+		
+		
+		sumDif = 0
+		
 		Cmax = -Inf
 		Cmin = Inf
 		for(inst in lst[-d]){
@@ -182,16 +220,22 @@ makeDygraph = function(lst, metric = "CPU Load (Normalized) [%]", colors=NULL, Y
 		maxes[i] = Cmax
 		mins[i] = Cmin
 	}
+	
+	var = sampleVariance(lstUnsmooth,smooth,metric)
 	if(is.null(Ylim))
 		Ylim = c(min(mins),max(maxes))
 	print(Ylim)
 	#return(ext)
+	
 	plot(lst[[1]][,timeInd],maxes, ylab=metric, xlab='Time (ms)', type="l", ylim=Ylim, col="red", main = paste(metric, " VS ", "Time"))
+	#browser()
+	#lines(lst[[1]][,timeInd],var, col="green")
+	#browser()
 	lines(lst[[1]][,timeInd],mins, col="blue")
 	lines(lst[[1]][,timeInd],lst[[d]][,metric], lwd=3)
-	
-	
 }
+
+
 
 plotTrace = function(spTrace, leadTime, plotHeight=0){
 	if(is.null(spTrace))
@@ -204,80 +248,413 @@ plotTrace = function(spTrace, leadTime, plotHeight=0){
 	apply(spTrace, 1, drawLine)
 }
 
-generateAndSavePlots = function(instList, propTrace, mapsTrace){
+#Phone 1 = moto
+#Phone 2 = Google
+#Phone 3 = Samsung
+
+
+generateAndSavePlots = function(){
+	for(pn in 1:3){
+		means = lapply(allData[[pn]][1:9],getMean,FALSE)
 	
-	dirs = c("plots/property/", "plots/maps/", "plots/matrix/")
-	names = matrix(c("AndrProperty", "RNProperty", 
-					"AndrMaps", "RNMaps",
-					"AndrMatrix", "RNMatrix"), nrow=3, ncol=2, byrow=TRUE)
-	delays = c(7.5,5,0)
-	#metrics = c("Instances", "Dygraph", "Sorted", "MeanComp")
-	metrics = colnames(instList[[1]][[1]])
-	print(metrics)
-	for(i in seq(4,length(metrics), 2)){
-		metric= metrics[i]
-		print(metric)
-		
-		for(j in 1:3){
+		for(metric in c("Memory Usage [KB]","CPU Load (Normalized) [%]")){
+			#property
+			print(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),".png",sep=""))
+			png(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),".png",sep=""),10000,1000)	
+			#metric = "Memory Usage [KB]"
+			#plot(means[[1]])
+			#get timestamps
+			ANtime = means[[1]][,(which(colnames(means[[1]])==metric)-1)]
+			RNtime = means[[4]][,(which(colnames(means[[4]])==metric)-1)]
+			IOtime = means[[7]][,(which(colnames(means[[7]])==metric)-1)]
 			
+			ANapp = means[[1]][,metric]
+			RNapp = means[[4]][,metric]
+			IOapp = means[[7]][,metric]
 			
+			if(debug){
+				print(metric)
+				print(colnames(means[[1]]))
+				browser()
+			}
+			#get maximums
+			max = max(c(
+					max(ANapp),
+					max(RNapp),
+					max(IOapp)
+					)
+			)
 			
-			trace = NULL
-			if(j==1)
-				trace = propTrace
-			if(j==2)
-				trace = mapsTrace
-			ylim = NULL
-			if(metric == "CPU Load (Normalized) [%]")
-				ylim = c(1,100)
-			else if(j==3)
-				ylim = c(1600000, 1900000)
-			else
-				ylim = c(1700000, 1900000)
+			#get mins
+			min = min(c(
+					min(ANapp),
+					min(RNapp),
+					min(IOapp)
+					)
+			)
 			
-			filename = paste(dirs[j], names[j,1], metric,sep="")
-			filename = gsub("\\s.*", "", filename)
-			filename = paste(filename,".png", sep = "")
-			print(filename)
-			png(filename)
-			makeDygraph(instList[[j]],metric, Ylim = ylim)
-			plotTrace(trace,delays[j],ylim[1])
+			if(debug)
+				browser()
+			plot(ANtime, ANapp ,type="l", col="Green", lwd=2, ylim=c(min, max), xlab = "Time (ms)",ylab=metric, )
+			lines(RNtime, RNapp, col="Blue", lwd=2, ylim=c(min, max))
+			lines(IOtime, IOapp, col="Red", lwd=2, ylim=c(min, max))
+			#plot legend
+			legend(0,max,c("Android","ReactNative","Ionic"),c("green","blue","red"))
 			dev.off()
 			
-			filename = paste(dirs[j], names[j,2], metric,sep="")
-			filename = gsub("\\s.*", "", filename)
-			filename = paste(filename,".png", sep = "")
-			print(filename)
-			png(filename)
-			makeDygraph(instList[[j+3]],metric, Ylim = ylim)
-			plotTrace(trace,delays[j],ylim[1])
+			ANapp = allData[[pn]][[1]]
+			RNapp = allData[[pn]][[4]]
+			IOapp = allData[[pn]][[7]]
+			
+			sigCompare(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),"_ANvsRN_SigComp.png",sep=""),ANapp, RNapp, metric, c("green","blue"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),"_ANvsIO_SigComp.png",sep=""),ANapp, IOapp, metric, c("green","Red"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),"_RNvsIO_SigComp.png",sep=""),RNapp, IOapp, metric, c("blue","red"), FALSE, TRUE)
+			
+			
+			
+			#-------------------------------
+			
+			#maps
+			print(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),".png",sep=""))
+			png(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),".png",sep=""),10000,1000)	
+			#metric = "Memory Usage [KB]"
+			#plot(means[[1]])
+			#get timestamps
+			ANtime = means[[2]][,(which(colnames(means[[2]])==metric)-1)]
+			RNtime = means[[5]][,(which(colnames(means[[5]])==metric)-1)]
+			IOtime = means[[8]][,(which(colnames(means[[8]])==metric)-1)]
+			
+			ANapp = means[[2]][,metric]
+			RNapp = means[[5]][,metric]
+			IOapp = means[[8]][,metric]
+			#get maximums
+			max = max(c(
+							max(ANapp),
+							max(RNapp),
+							max(IOapp))
+			)
+			
+			#get mins
+			min = min(c(
+							min(ANapp),
+							min(RNapp),
+							min(IOapp))	
+			)
+			
+			if(debug)
+				browser()
+			plot(ANtime, ANapp ,type="l", col="Green", lwd=2, ylim=c(min, max), xlab = "Time (ms)",ylab=metric, )
+			lines(RNtime, RNapp, col="Blue", lwd=2, ylim=c(min, max))
+			lines(IOtime, IOapp, col="Red", lwd=2, ylim=c(min, max))
+			#plot legend
+			legend(0,max,c("Android","ReactNative","Ionic"),c("green","blue","red"))
 			dev.off()
 			
-			filename = paste(dirs[j], "meanCompare", metric,sep="")
-			filename = gsub("\\s.*", "", filename)
-			filename = paste(filename,".png", sep = "")
-			print(filename)
-			png(filename)
-			compareMeans(getMean(instList[[j]]), getMean(instList[[j+3]]), metric, min=ylim[1], max=ylim[2])
-			legend(0,ylim[2],c("Android","React-Native"),c("red","blue"))
-			plotTrace(trace,delays[j],ylim[1])
+			ANapp = allData[[pn]][[2]]
+			RNapp = allData[[pn]][[5]]
+			IOapp = allData[[pn]][[8]]
+			
+			sigCompare(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),"_ANvsRN_SigComp.png",sep=""),ANapp, RNapp, metric, c("green","blue"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),"_ANvsIO_SigComp.png",sep=""),ANapp, IOapp, metric, c("green","Red"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),"_RNvsIO_SigComp.png",sep=""),RNapp, IOapp, metric, c("blue","red"), FALSE, TRUE)
+			
+					
+			#-------------------------------
+			#matrix
+			print(paste("plots/",phoneNames[pn],"_Matr_",substr(metric,1,3),".png",sep=""))
+			png(paste("plots/",phoneNames[pn],"_Matr_",substr(metric,1,3),".png",sep=""),10000,1000)	
+			#metric = "Memory Usage [KB]"
+			#plot(means[[1]])
+			#get timestamps
+			ANtime = means[[3]][,(which(colnames(means[[3]])==metric)-1)]
+			RNtime = means[[6]][,(which(colnames(means[[6]])==metric)-1)]
+			IOtime = means[[9]][,(which(colnames(means[[9]])==metric)-1)]
+			ANapp = means[[3]][,metric]
+			RNapp = means[[6]][,metric]
+			IOapp = means[[9]][,metric]
+			#get maximums
+			max = max(c(
+							max(ANapp),
+							max(RNapp), 
+							max(IOapp))
+			)
+			
+			#get mins
+			min = min(c(
+							min(ANapp),
+							min(RNapp),
+							min(IOapp))	
+			)
+			
+			if(debug)
+				browser()
+			plot(ANtime, ANapp ,type="l", col="Green", lwd=2, ylim=c(min, max), xlab = "Time (ms)",ylab=metric, )
+			lines(RNtime, RNapp, col="Blue", lwd=2, ylim=c(min, max))
+			lines(IOtime, IOapp, col="Red", lwd=2, ylim=c(min, max))
+			
+			#plot legend
+			legend(0,max,c("Android","ReactNative","Ionic"),c("green","blue","red"))
 			dev.off()
 			
-			filename = paste(dirs[j], "sortCompare", metric,sep="")
-			filename = gsub("\\s.*", "", filename)
-			filename = paste(filename,".png", sep = "")
-			print(filename)
-			png(filename)
-			compareSorts(instList[[j]],instList[[j+3]],metric)			
-			legend(0,ylim[2],c("Android","React-Native"),c("red","blue"))
-			dev.off()
+			ANapp = allData[[pn]][[3]]
+			RNapp = allData[[pn]][[6]]
+			IOapp = allData[[pn]][[9]]
+			
+			sigCompare(paste("plots/",phoneNames[pn],"_Matrix_",substr(metric,1,3),"_ANvsRN_SigComp.png",sep=""),ANapp, RNapp, metric, c("green","blue"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Matrix_",substr(metric,1,3),"_ANvsIO_SigComp.png",sep=""),ANapp, IOapp, metric, c("green","Red"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Matrix_",substr(metric,1,3),"_RNvsIO_SigComp.png",sep=""),RNapp, IOapp, metric, c("blue","red"), FALSE, TRUE)
 			
 		}
 		
-		closeAllConnections()
+		#same as above but with moving average applied
+		means = lapply(allData[[pn]][1:9],getMean,TRUE)
+		for(metric in c("Memory Usage [KB]","CPU Load (Normalized) [%]")){
+			#property
+			print(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),".png",sep=""))
+			png(paste("plots/",phoneNames[pn],"_Property_MA_",substr(metric,1,3),".png",sep=""),10000,1000)	
+			#metric = "Memory Usage [KB]"
+			#plot(means[[1]])
+			#get timestamps
+			ANtime = means[[1]][,(which(colnames(means[[1]])==metric)-1)]
+			RNtime = means[[4]][,(which(colnames(means[[4]])==metric)-1)]
+			IOtime = means[[7]][,(which(colnames(means[[7]])==metric)-1)]
+			if(debug){
+				print(metric)
+				print(colnames(means[[1]]))
+				browser()
+			}
+			#get maximums
+			max = max(c(
+							max(means[[1]][,metric]),
+							max(means[[4]][,metric]),
+							max(means[[7]][,metric]))
+			)
+			
+			#get mins
+			min = min(c(
+							min(means[[1]][,metric]),
+							min(means[[4]][,metric]),
+							min(means[[7]][,metric]))	
+			)
+			
+			if(debug)
+				browser()
+			plot(ANtime, means[[1]][,metric] ,type="l", col="Green", lwd=2, ylim=c(min, max), xlab = "Time (ms)",ylab=metric, )
+			lines(RNtime, means[[4]][,metric], col="Blue", lwd=2, ylim=c(min, max))
+			lines(IOtime, means[[7]][,metric], col="Red", lwd=2, ylim=c(min, max))
+			
+			#plot legend
+			legend(0,max,c("Android","ReactNative","Ionic"),c("green","blue","red"))
+			dev.off()
+			
+			ANapp = allData[[pn]][[1]]
+			RNapp = allData[[pn]][[4]]
+			IOapp = allData[[pn]][[7]]
+			
+			sigCompare(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),"_ANvsRN_SigComp_Smooth.png",sep=""),ANapp, RNapp, metric, c("green","blue"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),"_ANvsIO_SigComp_Smooth.png",sep=""),ANapp, IOapp, metric, c("green","Red"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Property_",substr(metric,1,3),"_RNvsIO_SigComp_Smooth.png",sep=""),RNapp, IOapp, metric, c("blue","red"), FALSE, TRUE)
+			
+			
+			#-------------------------------
+			
+			#maps
+			print(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),".png",sep=""))
+			png(paste("plots/",phoneNames[pn],"_Maps_MA",substr(metric,1,3),".png",sep=""),10000,1000)	
+			#metric = "Memory Usage [KB]"
+			#plot(means[[1]])
+			#get timestamps
+			ANtime = means[[2]][,(which(colnames(means[[2]])==metric)-1)]
+			RNtime = means[[5]][,(which(colnames(means[[5]])==metric)-1)]
+			IOtime = means[[8]][,(which(colnames(means[[8]])==metric)-1)]
+			
+			#get maximums
+			max = max(c(
+							max(means[[2]][,metric]),
+							max(means[[5]][,metric]),
+							max(means[[8]][,metric]))
+			)
+			
+			#get mins
+			min = min(c(
+							min(means[[2]][,metric]),
+							min(means[[5]][,metric]),
+							min(means[[8]][,metric]))	
+			)
+			
+			if(debug)
+				browser()
+			plot(ANtime, means[[2]][,metric] ,type="l", col="Green", lwd=2, ylim=c(min, max), xlab = "Time (ms)",ylab=metric, )
+			lines(RNtime, means[[5]][,metric], col="Blue", lwd=2, ylim=c(min, max))
+			lines(IOtime, means[[8]][,metric], col="Red", lwd=2, ylim=c(min, max))
+			
+			#plot legend
+			legend(0,max,c("Android","ReactNative","Ionic"),c("green","blue","red"))
+			dev.off()
+			
+			ANapp = allData[[pn]][[2]]
+			RNapp = allData[[pn]][[5]]
+			IOapp = allData[[pn]][[8]]
+			
+			sigCompare(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),"_ANvsRN_SigComp_Smooth.png",sep=""),ANapp, RNapp, metric, c("green","blue"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),"_ANvsIO_SigComp_Smooth.png",sep=""),ANapp, IOapp, metric, c("green","Red"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Maps_",substr(metric,1,3),"_RNvsIO_SigComp_Smooth.png",sep=""),RNapp, IOapp, metric, c("blue","red"), FALSE, TRUE)
+			
+			
+			#-------------------------------
+			#matrix
+			png(paste("plots/",phoneNames[pn],"_Matr_MA",substr(metric,1,3),".png",sep=""),10000,1000)	
+			#metric = "Memory Usage [KB]"
+			#plot(means[[1]])
+			#get timestamps
+			ANtime = means[[3]][,(which(colnames(means[[3]])==metric)-1)]
+			RNtime = means[[6]][,(which(colnames(means[[6]])==metric)-1)]
+			IOtime = means[[9]][,(which(colnames(means[[9]])==metric)-1)]
+			
+			#get maximums
+			max = max(c(
+							max(means[[3]][,metric]),
+							max(means[[6]][,metric]), 
+							max(means[[9]][,metric]))
+			)
+			
+			#get mins
+			min = min(c(
+							min(means[[3]][,metric]),
+							min(means[[6]][,metric]),
+							min(means[[9]][,metric]))	
+			)
+			
+			if(debug)
+				browser()
+			plot(ANtime, means[[3]][,metric] ,type="l", col="Green", lwd=2, ylim=c(min, max), xlab = "Time (ms)",ylab=metric, )
+			lines(RNtime, means[[6]][,metric], col="Blue", lwd=2, ylim=c(min, max))
+			lines(IOtime, means[[9]][,metric], col="Red", lwd=2, ylim=c(min, max))
+			
+			#plot legend
+			legend(0,max,c("Android","ReactNative","Ionic"),c("green","blue","red"))
+			dev.off()
+			
+			ANapp = allData[[pn]][[3]]
+			RNapp = allData[[pn]][[6]]
+			IOapp = allData[[pn]][[9]]
+			
+			sigCompare(paste("plots/",phoneNames[pn],"_Matrix_",substr(metric,1,3),"_ANvsRN_SigComp_Smooth.png",sep=""),ANapp, RNapp, metric, c("green","blue"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Matrix_",substr(metric,1,3),"_ANvsIO_SigComp_Smooth.png",sep=""),ANapp, IOapp, metric, c("green","Red"), FALSE, TRUE)
+			sigCompare(paste("plots/",phoneNames[pn],"_Matrix_",substr(metric,1,3),"_RNvsIO_SigComp_Smooth.png",sep=""),RNapp, IOapp, metric, c("blue","red"), FALSE, TRUE)
+			
+		}
 	}
-		
-		
-		
 	
+	print("plotting finished")
+	
+	closeAllConnections()#just in case
 }
+
+sigCompute=function(app1, app2, metric = "CPU Load (Normalized) [%]",smooth=TRUE){
+	mean1 = getMean(app1, smooth)
+	mean2 = getMean(app2, smooth)
+	
+	#app1Metric = lapply(app1, function(x){return(x[,metric])})
+	var1 = sampleVariance(app1, smooth, metric)
+	var2 = sampleVariance(app2, smooth, metric)
+	varAv = (var1+var2)/2
+	
+	meanDiff = mean1[,metric]-mean2[,metric]
+	mse = lapply(varAv, function(x){sqrt((2*x)/length(app1))})
+	#browser()
+	tstat = meanDiff/as.double(mse)
+	#browser()
+	dof = 2*length(app1)-2
+	#browser()
+	time = app1[[1]][1:min(length(tstat),nrow(app1[[1]])),(which(colnames(app1[[1]])==metric))-1]
+	#plot(time, tstat, type="l")
+	significant= qt(c(.1, .90), df=dof)
+	#abline(h=significant, col="blue")
+	return(list(tstat, significant ,mean1,mean2,time))
+}
+
+sigCompare=function(name, app1, app2, 
+					metric = "CPU Load (Normalized) [%]", 
+					col=c("red","blue"), smooth=TRUE, Drawpng=FALSE){
+	sigRes = sigCompute(app1, app2, metric, smooth)
+	
+	
+	tstat=sigRes[[1]]
+	sig = sigRes[[2]]
+	mean1 = sigRes[[3]][,metric]
+	mean2 = sigRes[[4]][,metric]
+	time = sigRes[[5]]
+
+	min = min(min(mean1),min(mean2))
+	max = max(max(mean1),max(mean2))
+	
+	if(Drawpng){
+		png = png(name,10000,1000)
+		print(name)
+	}
+	plot(time, time ,type="l", col="white", lwd=0, ylim=c(min, max), xlim=c(0,max(time)), xlab = "Time (ms)",ylab=metric)
+	
+	#proportional
+	#lwd = abs(tstat*3) 
+	
+	#quadratic
+	#lwd = abs(tstat^2)
+	
+	#binary
+	lwd = double(length(time))
+	sigIndeces = which(abs(tstat)>(sig[2]))
+	lwd[sigIndeces] = 5
+	lwd[-sigIndeces] = 1	
+	
+	
+	plotWidthChart(time, mean1, mean2, lwd, col)
+	if(Drawpng)
+		dev.off()
+	#browser()
+	#par(new=TRUE)
+	#trimmed = trimToSmaller(time, tstat)
+	#time=trimmed[1]
+	#tstat=trimmed[2]
+	
+	#lines(time, tstat, ylim = c(-30, +30))
+	
+	#dev.off()
+	#closeAllConnections()
+}
+
+plotWidthChart=function(x, y1, y2, thickness, col){
+	for(i in 1:(min(length(y1),length(y2))-1))
+	{
+		thicc = (thickness[i]+thickness[i+1])/2
+		segments(x[i], y1[i], x[i+1], y1[i+1],col=col[1],lwd=thicc)
+		segments(x[i], y2[i], x[i+1], y2[i+1],col=col[2],lwd=thicc)
+	}
+}
+
+
+
+plotMeans=function(means){
+	
+	#get timestamps
+	time1 = mean1[,(which(colnames(mean1)==metric)-1)]
+	time2 = mean2[,(which(colnames(mean2)==metric)-1)]
+	
+	#normalize times so the graphs line up
+	
+	t1start = time1[1]
+	t2start = time2[1]
+	#browser()
+	#determine offset
+	
+	diff = t2start-t1start
+	
+	#shift by offset
+	time2 = time2-diff
+}
+
+
+
+
+
+
